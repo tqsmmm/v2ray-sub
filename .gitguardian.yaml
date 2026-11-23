@@ -1,0 +1,17 @@
+# GitGuardian local scan config (draft — NOT yet pushed to tqsmmm/v2ray-sub)
+# Purpose: the repo's sub.txt / clash.yaml are lists of PUBLIC free proxy
+# nodes. Every node carries its own shared password / username, which is
+# why GitGuardian flags "Generic Password" / "Username Password" on every
+# push. These are not Tang's credentials — they are already published in
+# the free-node source feeds. This file tells ggshield (local CLI scans)
+# to skip those two generated files.
+# NOTE: this alone may NOT stop the GitGuardian GitHub-monitoring emails;
+# the reliable suppression for those is ignoring the incidents / adding a
+# filepath exclusion in the GitGuardian dashboard. Do not push without
+# Tang's approval, and the daily cron manifest (sub.txt, clash.yaml,
+# report.md, README.md) must be updated to include this file first.
+version: 2
+secret:
+  ignored_paths:
+    - 'sub.txt'
+    - 'clash.yaml'

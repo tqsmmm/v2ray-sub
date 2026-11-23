@@ -1,0 +1,473 @@
+port: 7890
+socks-port: 7891
+allow-lan: false
+mode: rule
+log-level: info
+external-controller: 127.0.0.1:9090
+dns:
+  enable: true
+  nameserver:
+  - 8.8.8.8
+  - 1.1.1.1
+proxies:
+- type: ss
+  name: 🇩🇪_德国 (34) | 1641ms
+  server: 47.254.167.157
+  port: 443
+  password: 8yO3ANWefuuGs1lRKXECQA1FEhxlWFV2ppQMcBaZo5Y=
+  cipher: 2022-blake3-chacha20-poly1305
+  tls: false
+  skip-cert-verify: false
+- type: ss
+  name: 🇮🇹_意大利 (2) | 1843ms
+  server: 202.50.253.72
+  port: 19999
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  cipher: aes-256-gcm
+  tls: false
+  skip-cert-verify: false
+- type: ss
+  name: 🇮🇹_意大利 (11) | 2300ms
+  server: 202.50.253.45
+  port: 19999
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  cipher: aes-256-gcm
+  tls: false
+  skip-cert-verify: false
+- type: vmess
+  name: 🇺🇸US_805|515KB/s|C001-260618 [36370fcb48ce] | 2302ms
+  server: d1eyz.xiaoyan.io
+  port: 16648
+  uuid: 904f0569-8695-466f-97cf-0de2face1b46
+  alterId: 0
+  cipher: auto
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: f9309cc88637c26f552a1a64fb311cae.mobgslb.tbcache.com
+- type: ss
+  name: 🇮🇹_意大利 (8) | 2367ms
+  server: 202.50.253.54
+  port: 19999
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  cipher: aes-256-gcm
+  tls: false
+  skip-cert-verify: false
+- type: ss
+  name: 🇮🇹_意大利 (7) | 2378ms
+  server: 202.50.253.27
+  port: 19999
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  cipher: aes-256-gcm
+  tls: false
+  skip-cert-verify: false
+- type: ss
+  name: 🇮🇹_意大利 (3) | 2501ms
+  server: 202.50.253.81
+  port: 19999
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  cipher: aes-256-gcm
+  tls: false
+  skip-cert-verify: false
+- type: socks5
+  name: 🇸🇬SG_128|417KB/s|S001-260618 [5ad220ecfad2] | 2555ms
+  server: 103.248.228.166
+  port: 5555
+  username: Og==
+- type: socks5
+  name: 🇺🇸US_807|792KB/s|S001-260618 [59a600d82f05] | 2843ms
+  server: 47.251.166.203
+  port: 1080
+  username: Og==
+- type: ss
+  name: 🇮🇹_意大利 (6) | 2873ms
+  server: 202.50.253.18
+  port: 19999
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  cipher: aes-256-gcm
+  tls: false
+  skip-cert-verify: false
+- type: ss
+  name: 🇮🇹_意大利 (5) | 2909ms
+  server: 202.50.253.90
+  port: 19999
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  cipher: aes-256-gcm
+  tls: false
+  skip-cert-verify: false
+- type: ss
+  name: 🇮🇹_意大利 (9) | 3028ms
+  server: 202.50.253.99
+  port: 19999
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  cipher: aes-256-gcm
+  tls: false
+  skip-cert-verify: false
+- type: ss
+  name: 🇮🇹_意大利 (4) | 3054ms
+  server: 202.50.253.36
+  port: 19999
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  cipher: aes-256-gcm
+  tls: false
+  skip-cert-verify: false
+- name: 🇵🇭PH_1|191KB/s|R002-260618 [1ae4aa8e9ed4] | 3131ms
+  password: s6a1j38q
+  port: 42000
+  server: 103.18.230.88
+  sub_tag: R002-260618
+  type: socks5
+  username: uv4oakg5
+- type: ss
+  name: 🇩🇪_德国 (16) | 3206ms
+  server: 47.254.128.109
+  port: 443
+  password: 8yO3ANWefuuGs1lRKXECQA1FEhxlWFV2ppQMcBaZo5Y=
+  cipher: 2022-blake3-chacha20-poly1305
+  tls: false
+  skip-cert-verify: false
+- type: socks5
+  name: 🇭🇰HK_99|480KB/s|S001-260618 [e29ef3611cba] | 3313ms
+  server: 219.78.223.199
+  port: 5001
+  username: Og==
+- name: 🇹🇭TH_8|376KB/s|R002-260618 [f10b406ce373] | 3316ms
+  password: zdnivBaI
+  port: 62000
+  server: 109.66.136.194
+  sub_tag: R002-260618
+  type: socks5
+  username: r3ZzP8WW
+- type: ss
+  name: 🇮🇹_意大利 (10) | 3347ms
+  server: 202.50.253.63
+  port: 19999
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  cipher: aes-256-gcm
+  tls: false
+  skip-cert-verify: false
+- type: vmess
+  name: 🇺🇸US_804|495KB/s|C001-260618 [4e3b9532d837] | 3442ms
+  server: afzuv.xiaoyan.io
+  port: 16648
+  uuid: 904f0569-8695-466f-97cf-0de2face1b46
+  alterId: 0
+  cipher: auto
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: f9309cc88637c26f552a1a64fb311cae.mobgslb.tbcache.com
+- name: 🇺🇸US_727|697KB/s|R002-260618 [82bc43fb8ccb] | 3493ms
+  password: l1tlrdx52v
+  port: 62000
+  server: 66.253.2.69
+  sub_tag: R002-260618
+  type: socks5
+  username: u_rb1dba2
+- name: 🇹🇭TH_17|459KB/s|R002-260618 [464d3086d022] | 3625ms
+  password: ao3W5ZML
+  port: 42000
+  server: 168.222.8.119
+  sub_tag: R002-260618
+  type: socks5
+  username: JPjarpW3
+- name: 🇹🇭TH_20|576KB/s|S001-260618 [d591c4191f8f] | 3649ms
+  password: YlRoWvE0dL_cUqS94wPeKnA4
+  port: 62000
+  server: 87.84.49.206
+  skip-cert-verify: true
+  sub_tag: S001-260618
+  type: socks5
+  username: ks878449260d
+- type: socks5
+  name: 🇳🇱NL_223|981KB/s|S001-260618 [990082d6e5d2] | 3801ms
+  server: 57.128.249.250
+  port: 9052
+  username: Og==
+- name: 🇹🇭TH_10|578KB/s|R002-260618 [875ea96a51cf] | 3829ms
+  password: Ks4Iab43
+  port: 42000
+  server: 82.47.152.151
+  sub_tag: R002-260618
+  type: socks5
+  username: userLjVB
+- name: 🇹🇭TH_9|339KB/s|R002-260618 [97523c93a778] | 3882ms
+  password: zdnivBaI
+  port: 62000
+  server: 109.66.136.42
+  sub_tag: R002-260618
+  type: socks5
+  username: r3ZzP8WW
+- name: 🇺🇸US_729|258KB/s|R002-260618 [1951de2415e0] | 3951ms
+  password: kingstar123++
+  port: 62000
+  server: 23.230.200.250
+  sub_tag: R002-260618
+  type: socks5
+  username: kingstar123
+- name: 🇻🇳VN_5|400KB/s|R002-260618 [1ed94f8d82c9] | 4083ms
+  password: jHsK2gqs
+  port: 62000
+  server: 103.184.113.190
+  sub_tag: R002-260618
+  type: socks5
+  username: qT46DZLv
+- type: trojan
+  name: 🇺🇸_美国 (153) | 4108ms
+  server: sclass-01.catcat321.com
+  port: 20103
+  password: d7563108-615c-4338-a7bd-77f359869a4a
+  sni: hk.catxstar.com
+- name: 🇹🇭TH_7|331KB/s|R002-260618 [464b3437191d] | 4128ms
+  password: mpbK00Pl
+  port: 42000
+  server: 192.204.15.192
+  sub_tag: R002-260618
+  type: socks5
+  username: X3s3JteD
+- type: trojan
+  name: 🇺🇸_美国 (68) | 4157ms
+  server: sclass-c2.catcat321.com
+  port: 20051
+  password: d9064589-74af-432a-9390-5d8a9da281bf
+  sni: hk.catxstar.com
+- name: 🇲🇽MX_2|225KB/s|P002-260618 [e54cbc977cc8] | 4269ms
+  password: DJy1T0dt
+  port: 42000
+  server: 144.225.47.161
+  skip-cert-verify: true
+  sub_tag: P002-260618
+  type: socks5
+  username: Tek2x6av
+- name: 🇹🇭TH_11|490KB/s|R002-260618 [0e1f17200b32] | 4298ms
+  password: 1pB7HV6u
+  port: 42000
+  server: 151.246.109.158
+  sub_tag: R002-260618
+  type: socks5
+  username: AJ3d9gJw
+- name: 🇺🇸US_690|1.5MB/s|P002-260618 [c0b3b312046c] | 4304ms
+  password: None
+  port: 38182
+  server: 69.55.49.177
+  sub_tag: P002-260618
+  type: socks5
+- name: 🇸🇬SG_36|408KB/s|R002-260618 [e2924167f620] | 4367ms
+  password: "8888"
+  port: 1080
+  server: 47.236.168.243
+  skip-cert-verify: true
+  sub_tag: R002-260618
+  type: socks5
+  username: "8888"
+- type: socks5
+  name: 🇺🇸US_684|649KB/s|K001-260618 [c0e1d9c94bee] | 4446ms
+  server: 209.50.255.91
+  port: 1080
+  username: Og==
+- name: 🇹🇭TH_6|391KB/s|R002-260618 [849ebc43c563] | 4449ms
+  password: mpbK00Pl
+  port: 42000
+  server: 192.204.15.135
+  sub_tag: R002-260618
+  type: socks5
+  username: X3s3JteD
+- name: 🇲🇽MX_9|324KB/s|P002-260618 [a4fc8a9a0c8d] | 4525ms
+  password: sZnD8GTz
+  port: 42000
+  server: 144.225.47.158
+  skip-cert-verify: true
+  sub_tag: P002-260618
+  type: socks5
+  username: DJy1T0dt
+- name: 🇲🇽MX_4|409KB/s|R002-260618 [8153d1b7016b] | 4542ms
+  password: sZnD8GTz
+  port: 42000
+  server: 144.225.47.106
+  sub_tag: R002-260618
+  type: socks5
+  username: DJy1T0dt
+- name: 🇲🇽MX_3|308KB/s|R002-260618 [b7d81b4b7ca2] | 4562ms
+  password: DJy1T0dt
+  port: 42000
+  server: 144.225.47.8
+  sub_tag: R002-260618
+  type: socks5
+  username: Tek2x6av
+- name: 🇯🇵JP_80|372KB/s|P002-260618 [e5efa8f7a2fb] | 4706ms
+  password: EGJDy5Kg
+  port: 42000
+  server: 103.248.150.50
+  skip-cert-verify: true
+  sub_tag: P002-260618
+  type: socks5
+  username: paZFN3JA
+- name: 🇲🇽MX_10|724KB/s|K001-260618 [2b33d64efd58] | 4710ms
+  password: VvUAFi2E
+  port: 62000
+  server: 72.57.228.87
+  skip-cert-verify: true
+  sub_tag: K001-260618
+  type: socks5
+  username: UBXich0K
+- name: 🇹🇭TH_19|532KB/s|K001-260618 [c6bc9706b37b] | 4745ms
+  password: wj2sNvDu
+  port: 62000
+  server: 45.201.39.74
+  skip-cert-verify: true
+  sub_tag: K001-260618
+  type: socks5
+  username: y2stTQnf
+- type: trojan
+  name: 🇺🇸_美国 (147) | 4813ms
+  server: sclass-b1.catcat321.com
+  port: 20051
+  password: d7563108-615c-4338-a7bd-77f359869a4a
+  sni: hk.catxstar.com
+- name: 🇲🇽MX_6|195KB/s|R002-260618 [4414f12f0fa0] | 4828ms
+  password: sZnD8GTz
+  port: 42000
+  server: 144.225.47.68
+  sub_tag: R002-260618
+  type: socks5
+  username: DJy1T0dt
+- name: 🇹🇭TH_15|586KB/s|R002-260618 [744dddb58be2] | 4849ms
+  password: KT5hiU8o
+  port: 42000
+  server: 104.234.70.82
+  sub_tag: R002-260618
+  type: socks5
+  username: rnt2L4XO
+- name: 🇹🇭TH_21|303KB/s|R002-260618 [adb3477e8887] | 4866ms
+  password: ao3W5ZML
+  port: 42000
+  server: 168.222.8.66
+  sub_tag: R002-260618
+  type: socks5
+  username: JPjarpW3
+- name: 🇧🇷BR_7|480KB/s|R002-260618 [0a59d07494f6] | 4876ms
+  password: 0mvrt5jb
+  port: 62000
+  server: 191.7.129.133
+  sub_tag: R002-260618
+  type: socks5
+  username: uwrgfkwg
+- name: 🇲🇽MX_11|607KB/s|R002-260618 [f364ec713648] | 4879ms
+  password: KsPAxZGn
+  port: 42000
+  server: 94.194.166.52
+  sub_tag: R002-260618
+  type: socks5
+  username: userLRgK
+proxy-groups:
+- name: PROXY
+  type: select
+  proxies:
+  - AUTO
+  - DIRECT
+  - 🇩🇪_德国 (34) | 1641ms
+  - 🇮🇹_意大利 (2) | 1843ms
+  - 🇮🇹_意大利 (11) | 2300ms
+  - 🇺🇸US_805|515KB/s|C001-260618 [36370fcb48ce] | 2302ms
+  - 🇮🇹_意大利 (8) | 2367ms
+  - 🇮🇹_意大利 (7) | 2378ms
+  - 🇮🇹_意大利 (3) | 2501ms
+  - 🇸🇬SG_128|417KB/s|S001-260618 [5ad220ecfad2] | 2555ms
+  - 🇺🇸US_807|792KB/s|S001-260618 [59a600d82f05] | 2843ms
+  - 🇮🇹_意大利 (6) | 2873ms
+  - 🇮🇹_意大利 (5) | 2909ms
+  - 🇮🇹_意大利 (9) | 3028ms
+  - 🇮🇹_意大利 (4) | 3054ms
+  - 🇵🇭PH_1|191KB/s|R002-260618 [1ae4aa8e9ed4] | 3131ms
+  - 🇩🇪_德国 (16) | 3206ms
+  - 🇭🇰HK_99|480KB/s|S001-260618 [e29ef3611cba] | 3313ms
+  - 🇹🇭TH_8|376KB/s|R002-260618 [f10b406ce373] | 3316ms
+  - 🇮🇹_意大利 (10) | 3347ms
+  - 🇺🇸US_804|495KB/s|C001-260618 [4e3b9532d837] | 3442ms
+  - 🇺🇸US_727|697KB/s|R002-260618 [82bc43fb8ccb] | 3493ms
+  - 🇹🇭TH_17|459KB/s|R002-260618 [464d3086d022] | 3625ms
+  - 🇹🇭TH_20|576KB/s|S001-260618 [d591c4191f8f] | 3649ms
+  - 🇳🇱NL_223|981KB/s|S001-260618 [990082d6e5d2] | 3801ms
+  - 🇹🇭TH_10|578KB/s|R002-260618 [875ea96a51cf] | 3829ms
+  - 🇹🇭TH_9|339KB/s|R002-260618 [97523c93a778] | 3882ms
+  - 🇺🇸US_729|258KB/s|R002-260618 [1951de2415e0] | 3951ms
+  - 🇻🇳VN_5|400KB/s|R002-260618 [1ed94f8d82c9] | 4083ms
+  - 🇺🇸_美国 (153) | 4108ms
+  - 🇹🇭TH_7|331KB/s|R002-260618 [464b3437191d] | 4128ms
+  - 🇺🇸_美国 (68) | 4157ms
+  - 🇲🇽MX_2|225KB/s|P002-260618 [e54cbc977cc8] | 4269ms
+  - 🇹🇭TH_11|490KB/s|R002-260618 [0e1f17200b32] | 4298ms
+  - 🇺🇸US_690|1.5MB/s|P002-260618 [c0b3b312046c] | 4304ms
+  - 🇸🇬SG_36|408KB/s|R002-260618 [e2924167f620] | 4367ms
+  - 🇺🇸US_684|649KB/s|K001-260618 [c0e1d9c94bee] | 4446ms
+  - 🇹🇭TH_6|391KB/s|R002-260618 [849ebc43c563] | 4449ms
+  - 🇲🇽MX_9|324KB/s|P002-260618 [a4fc8a9a0c8d] | 4525ms
+  - 🇲🇽MX_4|409KB/s|R002-260618 [8153d1b7016b] | 4542ms
+  - 🇲🇽MX_3|308KB/s|R002-260618 [b7d81b4b7ca2] | 4562ms
+  - 🇯🇵JP_80|372KB/s|P002-260618 [e5efa8f7a2fb] | 4706ms
+  - 🇲🇽MX_10|724KB/s|K001-260618 [2b33d64efd58] | 4710ms
+  - 🇹🇭TH_19|532KB/s|K001-260618 [c6bc9706b37b] | 4745ms
+  - 🇺🇸_美国 (147) | 4813ms
+  - 🇲🇽MX_6|195KB/s|R002-260618 [4414f12f0fa0] | 4828ms
+  - 🇹🇭TH_15|586KB/s|R002-260618 [744dddb58be2] | 4849ms
+  - 🇹🇭TH_21|303KB/s|R002-260618 [adb3477e8887] | 4866ms
+  - 🇧🇷BR_7|480KB/s|R002-260618 [0a59d07494f6] | 4876ms
+  - 🇲🇽MX_11|607KB/s|R002-260618 [f364ec713648] | 4879ms
+- name: AUTO
+  type: url-test
+  proxies:
+  - 🇩🇪_德国 (34) | 1641ms
+  - 🇮🇹_意大利 (2) | 1843ms
+  - 🇮🇹_意大利 (11) | 2300ms
+  - 🇺🇸US_805|515KB/s|C001-260618 [36370fcb48ce] | 2302ms
+  - 🇮🇹_意大利 (8) | 2367ms
+  - 🇮🇹_意大利 (7) | 2378ms
+  - 🇮🇹_意大利 (3) | 2501ms
+  - 🇸🇬SG_128|417KB/s|S001-260618 [5ad220ecfad2] | 2555ms
+  - 🇺🇸US_807|792KB/s|S001-260618 [59a600d82f05] | 2843ms
+  - 🇮🇹_意大利 (6) | 2873ms
+  - 🇮🇹_意大利 (5) | 2909ms
+  - 🇮🇹_意大利 (9) | 3028ms
+  - 🇮🇹_意大利 (4) | 3054ms
+  - 🇵🇭PH_1|191KB/s|R002-260618 [1ae4aa8e9ed4] | 3131ms
+  - 🇩🇪_德国 (16) | 3206ms
+  - 🇭🇰HK_99|480KB/s|S001-260618 [e29ef3611cba] | 3313ms
+  - 🇹🇭TH_8|376KB/s|R002-260618 [f10b406ce373] | 3316ms
+  - 🇮🇹_意大利 (10) | 3347ms
+  - 🇺🇸US_804|495KB/s|C001-260618 [4e3b9532d837] | 3442ms
+  - 🇺🇸US_727|697KB/s|R002-260618 [82bc43fb8ccb] | 3493ms
+  - 🇹🇭TH_17|459KB/s|R002-260618 [464d3086d022] | 3625ms
+  - 🇹🇭TH_20|576KB/s|S001-260618 [d591c4191f8f] | 3649ms
+  - 🇳🇱NL_223|981KB/s|S001-260618 [990082d6e5d2] | 3801ms
+  - 🇹🇭TH_10|578KB/s|R002-260618 [875ea96a51cf] | 3829ms
+  - 🇹🇭TH_9|339KB/s|R002-260618 [97523c93a778] | 3882ms
+  - 🇺🇸US_729|258KB/s|R002-260618 [1951de2415e0] | 3951ms
+  - 🇻🇳VN_5|400KB/s|R002-260618 [1ed94f8d82c9] | 4083ms
+  - 🇺🇸_美国 (153) | 4108ms
+  - 🇹🇭TH_7|331KB/s|R002-260618 [464b3437191d] | 4128ms
+  - 🇺🇸_美国 (68) | 4157ms
+  - 🇲🇽MX_2|225KB/s|P002-260618 [e54cbc977cc8] | 4269ms
+  - 🇹🇭TH_11|490KB/s|R002-260618 [0e1f17200b32] | 4298ms
+  - 🇺🇸US_690|1.5MB/s|P002-260618 [c0b3b312046c] | 4304ms
+  - 🇸🇬SG_36|408KB/s|R002-260618 [e2924167f620] | 4367ms
+  - 🇺🇸US_684|649KB/s|K001-260618 [c0e1d9c94bee] | 4446ms
+  - 🇹🇭TH_6|391KB/s|R002-260618 [849ebc43c563] | 4449ms
+  - 🇲🇽MX_9|324KB/s|P002-260618 [a4fc8a9a0c8d] | 4525ms
+  - 🇲🇽MX_4|409KB/s|R002-260618 [8153d1b7016b] | 4542ms
+  - 🇲🇽MX_3|308KB/s|R002-260618 [b7d81b4b7ca2] | 4562ms
+  - 🇯🇵JP_80|372KB/s|P002-260618 [e5efa8f7a2fb] | 4706ms
+  - 🇲🇽MX_10|724KB/s|K001-260618 [2b33d64efd58] | 4710ms
+  - 🇹🇭TH_19|532KB/s|K001-260618 [c6bc9706b37b] | 4745ms
+  - 🇺🇸_美国 (147) | 4813ms
+  - 🇲🇽MX_6|195KB/s|R002-260618 [4414f12f0fa0] | 4828ms
+  - 🇹🇭TH_15|586KB/s|R002-260618 [744dddb58be2] | 4849ms
+  - 🇹🇭TH_21|303KB/s|R002-260618 [adb3477e8887] | 4866ms
+  - 🇧🇷BR_7|480KB/s|R002-260618 [0a59d07494f6] | 4876ms
+  - 🇲🇽MX_11|607KB/s|R002-260618 [f364ec713648] | 4879ms
+  url: http://www.gstatic.com/generate_204
+  interval: 300
+  tolerance: 50
+rules:
+- MATCH,PROXY
