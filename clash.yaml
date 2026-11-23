@@ -11,461 +11,1276 @@ dns:
   - 1.1.1.1
 proxies:
 - type: ss
-  name: 🇩🇪_德国 (34) | 1641ms
-  server: 47.254.167.157
+  name: '@DeltaKroneckerGithub | 1421ms'
+  server: 49.142.200.31
+  port: 28017
+  cipher: none
+  password: https://t.me/WangCai2🇨🇳
+- type: ss
+  name: '@DeltaKroneckerGithub | 1534ms'
+  server: 172.67.70.92
   port: 443
-  password: 8yO3ANWefuuGs1lRKXECQA1FEhxlWFV2ppQMcBaZo5Y=
-  cipher: 2022-blake3-chacha20-poly1305
-  tls: false
-  skip-cert-verify: false
+  cipher: none
+  password: 79960b0b-7d31-4263-8915-6511b0e137a8
 - type: ss
-  name: 🇮🇹_意大利 (2) | 1843ms
-  server: 202.50.253.72
-  port: 19999
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  cipher: aes-256-gcm
-  tls: false
-  skip-cert-verify: false
+  name: '@DeltaKroneckerGithub | 1600ms'
+  server: 104.18.43.174
+  port: 443
+  cipher: none
+  password: 79960b0b-7d31-4263-8915-6511b0e137a8
+- type: trojan
+  name: '@DeltaKroneckerGithub | 1624ms'
+  server: ja262.magiclampcloud.cn
+  port: 59443
+  password: 6fac6920d85a061cc5bb88ea80e6a703
+  sni: ja262.magiclampcloud.cn
+  skip-cert-verify: true
 - type: ss
-  name: 🇮🇹_意大利 (11) | 2300ms
-  server: 202.50.253.45
-  port: 19999
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  cipher: aes-256-gcm
-  tls: false
-  skip-cert-verify: false
-- type: vmess
-  name: 🇺🇸US_805|515KB/s|C001-260618 [36370fcb48ce] | 2302ms
-  server: d1eyz.xiaoyan.io
-  port: 16648
-  uuid: 904f0569-8695-466f-97cf-0de2face1b46
-  alterId: 0
-  cipher: auto
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: f9309cc88637c26f552a1a64fb311cae.mobgslb.tbcache.com
+  name: '@DeltaKroneckerGithub | 1628ms'
+  server: 188.114.99.137
+  port: 443
+  cipher: none
+  password: 59fc5f8c-5697-4eb8-acf2-8ae363f203a2
 - type: ss
-  name: 🇮🇹_意大利 (8) | 2367ms
-  server: 202.50.253.54
-  port: 19999
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  cipher: aes-256-gcm
-  tls: false
-  skip-cert-verify: false
+  name: '@DeltaKroneckerGithub | 1634ms'
+  server: 188.114.99.137
+  port: 2053
+  cipher: none
+  password: https://t.me/WangCai2🇨🇳
 - type: ss
-  name: 🇮🇹_意大利 (7) | 2378ms
-  server: 202.50.253.27
-  port: 19999
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  cipher: aes-256-gcm
-  tls: false
-  skip-cert-verify: false
+  name: '@DeltaKroneckerGithub | 1636ms'
+  server: 104.18.41.190
+  port: 443
+  cipher: none
+  password: 79960b0b-7d31-4263-8915-6511b0e137a8
+- type: trojan
+  name: '@DeltaKroneckerGithub | 1657ms'
+  server: ja262.magiclampcloud.cn
+  port: 59443
+  password: ac312a46f833789e1e5c87222ec9949f
+  sni: ja262.magiclampcloud.cn
+  skip-cert-verify: true
 - type: ss
-  name: 🇮🇹_意大利 (3) | 2501ms
+  name: '@DeltaKroneckerGithub | 1667ms'
+  server: 185.188.104.10
+  port: 443
+  cipher: none
+  password: RSzEIkk2EsHEAVj15N5E/A==
+- type: ss
+  name: '@DeltaKroneckerGithub | 1667ms (2)'
+  server: 172.66.42.200
+  port: 2083
+  cipher: none
+  password: https://t.me/WangCai2🇨🇳
+- type: ss
+  name: '@DeltaKroneckerGithub | 1678ms'
+  server: 188.114.99.137
+  port: 2053
+  cipher: none
+  password: 3e96ef7d-8637-42c2-ac73-75182196e755
+- type: trojan
+  name: '@DeltaKroneckerGithub | 1682ms'
+  server: ja262.magiclampcloud.cn
+  port: 59443
+  password: dd135b010b5f8ec7ba4c4cc5a35f0efb
+  sni: ja262.magiclampcloud.cn
+  skip-cert-verify: true
+- type: ss
+  name: '@DeltaKroneckerGithub | 1684ms'
+  server: cf.090227.xyz
+  port: 443
+  cipher: none
+  password: 79960b0b-7d31-4263-8915-6511b0e137a8
+- type: trojan
+  name: '@DeltaKroneckerGithub | 1684ms (2)'
+  server: ja304.magiclampcloud.cn
+  port: 59443
+  password: 53e00b660ad5da37f677dafeee646c9b
+  sni: ja304.magiclampcloud.cn
+  skip-cert-verify: true
+- type: ss
+  name: '@DeltaKroneckerGithub | 1690ms'
+  server: 69.84.182.16
+  port: 443
+  cipher: none
+  password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+- type: ss
+  name: '@DeltaKroneckerGithub | 1690ms (2)'
+  server: 162.159.25.12
+  port: 443
+  cipher: none
+  password: 79960b0b-7d31-4263-8915-6511b0e137a8
+- type: trojan
+  name: '@DeltaKroneckerGithub | 1695ms'
+  server: tyy129.magiclampcloud.com
+  port: 59443
+  password: 73a21f82e484bc746b7b3e8b742622e1
+  sni: tyy129.magiclampcloud.com
+- type: trojan
+  name: '@DeltaKroneckerGithub | 1695ms (2)'
+  server: tyy129.magiclampcloud.com
+  port: 59443
+  password: 6bd61140c3512e2b9c2be81ed012faff
+  sni: tyy129.magiclampcloud.com
+  skip-cert-verify: true
+- type: ss
+  name: '@DeltaKroneckerGithub | 1702ms'
+  server: 104.18.35.15
+  port: 443
+  cipher: none
+  password: 79960b0b-7d31-4263-8915-6511b0e137a8
+- type: trojan
+  name: '@DeltaKroneckerGithub | 1702ms (2)'
+  server: ja262.magiclampcloud.cn
+  port: 59443
+  password: 3e3a24469a836233ed552b320c50b4d7
+  sni: ja262.magiclampcloud.cn
+  skip-cert-verify: true
+- type: ss
+  name: '@DeltaKroneckerGithub | 1707ms'
+  server: 185.188.107.10
+  port: 443
+  cipher: none
+  password: RSzEIkk2EsHEAVj15N5E/A==
+- type: trojan
+  name: '@DeltaKroneckerGithub | 1715ms'
+  server: ja304.magiclampcloud.cn
+  port: 59443
+  password: 93618d74a3bcf47c8cfbbe678bb29b08
+  sni: ja304.magiclampcloud.cn
+  skip-cert-verify: true
+- type: ss
+  name: '@DeltaKroneckerGithub | 1716ms'
+  server: 104.26.4.60
+  port: 443
+  cipher: none
+  password: 79960b0b-7d31-4263-8915-6511b0e137a8
+- type: ss
+  name: '@DeltaKroneckerGithub | 1726ms'
+  server: 172.64.152.216
+  port: 443
+  cipher: none
+  password: 79960b0b-7d31-4263-8915-6511b0e137a8
+- type: trojan
+  name: '@DeltaKroneckerGithub | 1726ms (2)'
+  server: ja262.magiclampcloud.cn
+  port: 59443
+  password: 2ce88088024f525d77c2bda96e81d737
+  sni: ja262.magiclampcloud.cn
+  skip-cert-verify: true
+- type: ss
+  name: '@DeltaKroneckerGithub | 1729ms'
+  server: 185.188.105.11
+  port: 443
+  cipher: none
+  password: RSzEIkk2EsHEAVj15N5E/A==
+- type: ss
+  name: '@DeltaKroneckerGithub | 1735ms'
+  server: 188.114.99.137
+  port: 8443
+  cipher: none
+  password: https://t.me/WangCai2🇨🇳
+- type: trojan
+  name: '@DeltaKroneckerGithub | 1737ms'
+  server: ja262.magiclampcloud.cn
+  port: 59443
+  password: 2bec9594deabbce4b0030700e6e916f0
+  sni: ja262.magiclampcloud.cn
+- type: trojan
+  name: '@DeltaKroneckerGithub | 1738ms'
+  server: tyy129.magiclampcloud.com
+  port: 59443
+  password: 881340284b2ba5737f5f892a846c2940
+  sni: tyy129.magiclampcloud.com
+- type: ss
+  name: '@DeltaKroneckerGithub | 1743ms'
+  server: cf.877774.xyz
+  port: 443
+  cipher: none
+  password: 79960b0b-7d31-4263-8915-6511b0e137a8
+- type: trojan
+  name: '@DeltaKroneckerGithub | 1744ms'
+  server: tyy129.magiclampcloud.com
+  port: 59443
+  password: 21fe8584f34486531ca5c3583775f80f
+  sni: tyy129.magiclampcloud.com
+  skip-cert-verify: true
+- type: trojan
+  name: '@DeltaKroneckerGithub | 1748ms'
+  server: ja262.magiclampcloud.cn
+  port: 59443
+  password: c89b4be208a7edb8edca2c3e847a5e3a
+  sni: ja262.magiclampcloud.cn
+  skip-cert-verify: true
+- type: ss
+  name: '@DeltaKroneckerGithub | 1752ms'
+  server: 172.64.147.104
+  port: 443
+  cipher: none
+  password: 79960b0b-7d31-4263-8915-6511b0e137a8
+- type: ss
+  name: '@DeltaKroneckerGithub | 1754ms'
+  server: 162.159.36.20
+  port: 443
+  cipher: none
+  password: 79960b0b-7d31-4263-8915-6511b0e137a8
+- type: trojan
+  name: '@DeltaKroneckerGithub | 1755ms'
+  server: tyy129.magiclampcloud.com
+  port: 59443
+  password: 493b3d1b5d6a298a32eea1935463dc4d
+  sni: tyy129.magiclampcloud.com
+- type: trojan
+  name: '@DeltaKroneckerGithub | 1767ms'
+  server: tyy129.magiclampcloud.com
+  port: 59443
+  password: 8e0cfdddbb7314e5c110576e7edec1f9
+  sni: tyy129.magiclampcloud.com
+- type: trojan
+  name: '@DeltaKroneckerGithub | 1770ms'
+  server: ja304.magiclampcloud.cn
+  port: 59443
+  password: fb334d27c52a3bed052f7c14bdc18963
+  sni: ja304.magiclampcloud.cn
+  skip-cert-verify: true
+- type: trojan
+  name: '@DeltaKroneckerGithub | 1770ms (2)'
+  server: ja262.magiclampcloud.cn
+  port: 59443
+  password: 08340a533092e321470fbe21b3407694
+  sni: ja262.magiclampcloud.cn
+- type: trojan
+  name: '@DeltaKroneckerGithub | 1772ms'
+  server: tyy129.magiclampcloud.com
+  port: 59443
+  password: 3a18d2d9d4caa3b86b241bbd37c90a40
+  sni: tyy129.magiclampcloud.com
+  skip-cert-verify: true
+- type: ss
+  name: 🇮🇹IT_18|130KB/s|A004-260618 [a31029bc3d86] | 1773ms
   server: 202.50.253.81
   port: 19999
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   cipher: aes-256-gcm
-  tls: false
-  skip-cert-verify: false
-- type: socks5
-  name: 🇸🇬SG_128|417KB/s|S001-260618 [5ad220ecfad2] | 2555ms
-  server: 103.248.228.166
-  port: 5555
-  username: Og==
-- type: socks5
-  name: 🇺🇸US_807|792KB/s|S001-260618 [59a600d82f05] | 2843ms
-  server: 47.251.166.203
-  port: 1080
-  username: Og==
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
 - type: ss
-  name: 🇮🇹_意大利 (6) | 2873ms
-  server: 202.50.253.18
+  name: '@DeltaKroneckerGithub | 1775ms'
+  server: 188.114.99.137
+  port: 443
+  cipher: none
+  password: https://t.me/WangCai2🇨🇳
+- type: trojan
+  name: '@DeltaKroneckerGithub | 1778ms'
+  server: tyy129.magiclampcloud.com
+  port: 59443
+  password: dc8487a54e41ae2a680b14ab235a30a2
+  sni: tyy129.magiclampcloud.com
+  skip-cert-verify: true
+- type: ss
+  name: 🇮🇹IT_14|502KB/s|A004-260618 [f636961637ce] | 1779ms
+  server: 202.50.253.72
   port: 19999
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   cipher: aes-256-gcm
-  tls: false
-  skip-cert-verify: false
-- type: ss
-  name: 🇮🇹_意大利 (5) | 2909ms
-  server: 202.50.253.90
-  port: 19999
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  cipher: aes-256-gcm
-  tls: false
-  skip-cert-verify: false
+- type: trojan
+  name: '@DeltaKroneckerGithub | 1779ms'
+  server: ja304.magiclampcloud.cn
+  port: 59443
+  password: 81f683c3f594588c69c9494526a57f3d
+  sni: ja304.magiclampcloud.cn
+  skip-cert-verify: true
+- type: trojan
+  name: '@DeltaKroneckerGithub | 1781ms'
+  server: ja304.magiclampcloud.cn
+  port: 59443
+  password: 9f08b5c59e0e0f5235d111cab8a3fe1b
+  sni: ja304.magiclampcloud.cn
+  skip-cert-verify: true
+- type: trojan
+  name: '@DeltaKroneckerGithub | 1783ms'
+  server: tyy129.magiclampcloud.com
+  port: 59443
+  password: ad2ac27a9fa52023755a961d77632f23
+  sni: tyy129.magiclampcloud.com
+- type: trojan
+  name: '@DeltaKroneckerGithub | 1783ms (2)'
+  server: tyy129.magiclampcloud.com
+  port: 59443
+  password: 77c2c63b9b3081a8deab212050ba5472
+  sni: tyy129.magiclampcloud.com
+  skip-cert-verify: true
+- type: trojan
+  name: '@DeltaKroneckerGithub | 1785ms'
+  server: tyy129.magiclampcloud.com
+  port: 59443
+  password: ffaac02033b3fd3458f2aec9386da59b
 - type: ss
-  name: 🇮🇹_意大利 (9) | 3028ms
-  server: 202.50.253.99
-  port: 19999
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  cipher: aes-256-gcm
-  tls: false
-  skip-cert-verify: false
+  name: '@DeltaKroneckerGithub | 1786ms'
+  server: 188.114.99.137
+  port: 80
+  cipher: none
+  password: aaaaaabb-4ddd-4eee-9fff-ffffffffffff
 - type: ss
-  name: 🇮🇹_意大利 (4) | 3054ms
-  server: 202.50.253.36
-  port: 19999
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  cipher: aes-256-gcm
-  tls: false
-  skip-cert-verify: false
-- name: 🇵🇭PH_1|191KB/s|R002-260618 [1ae4aa8e9ed4] | 3131ms
-  password: s6a1j38q
-  port: 42000
-  server: 103.18.230.88
-  sub_tag: R002-260618
-  type: socks5
-  username: uv4oakg5
+  name: '@DeltaKroneckerGithub | 1790ms'
+  server: 104.26.15.21
+  port: 80
+  cipher: none
+  password: aaaaaabb-4ddd-4eee-9fff-ffffffffffff
 - type: ss
-  name: 🇩🇪_德国 (16) | 3206ms
+  name: '@DeltaKroneckerGithub | 1790ms (2)'
+  server: 50.62.88.16
+  port: 443
+  cipher: none
+  password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+- type: trojan
+  name: '@DeltaKroneckerGithub | 1806ms'
+  server: tyy129.magiclampcloud.com
+  port: 59443
+  password: 4fa64bc99914bc5e4339589945720e94
+  sni: tyy129.magiclampcloud.com
+  skip-cert-verify: true
+- type: trojan
+  name: '@DeltaKroneckerGithub | 1808ms'
+  server: tyy129.magiclampcloud.com
+  port: 59443
+  password: 0255972f1b5cc33c6f87fbc561085684
+  sni: tyy129.magiclampcloud.com
+- type: ss
+  name: '@DeltaKroneckerGithub | 1812ms'
+  server: 172.64.152.241
+  port: 443
+  cipher: none
+  password: 79960b0b-7d31-4263-8915-6511b0e137a8
+- type: ss
+  name: '@DeltaKroneckerGithub | 1812ms (2)'
+  server: 162.159.36.5
+  port: 443
+  cipher: none
+  password: 79960b0b-7d31-4263-8915-6511b0e137a8
+- type: trojan
+  name: '@DeltaKroneckerGithub | 1820ms'
+  server: ja262.magiclampcloud.cn
+  port: 59443
+  password: 43deb843e3f5da502d0b394995fc42d2
+  sni: ja262.magiclampcloud.cn
+- type: trojan
+  name: '@DeltaKroneckerGithub | 1822ms'
+  server: ja304.magiclampcloud.cn
+  port: 59443
+  password: 81352974801287f06ab58f555f45ef0b
+  sni: ja304.magiclampcloud.cn
+  skip-cert-verify: true
+- type: trojan
+  name: '@DeltaKroneckerGithub | 1825ms'
+  server: ja262.magiclampcloud.cn
+  port: 59443
+  password: a0d94e10446eef0e1eebb4f6c177512d
+  sni: ja262.magiclampcloud.cn
+  skip-cert-verify: true
+- type: trojan
+  name: '@DeltaKroneckerGithub | 1827ms'
+  server: ja304.magiclampcloud.cn
+  port: 59443
+  password: 6eef2727659a8135ac79419c64aa2f87
+  sni: ja304.magiclampcloud.cn
+- type: ss
+  name: 🇳🇱225182 | ⚡️Telegram = t.me/SOSkeyNET | 1828ms
+  server: 103.90.72.71
+  port: 443
+  cipher: none
+  password: 3e96ef7d-8637-42c2-ac73-75182196e755
+- type: ss
+  name: '@DeltaKroneckerGithub | 1830ms'
+  server: 188.114.99.137
+  port: 443
+  cipher: none
+  password: 3e96ef7d-8637-42c2-ac73-75182196e755
+- type: trojan
+  name: '@DeltaKroneckerGithub | 1832ms'
+  server: ja304.magiclampcloud.cn
+  port: 59443
+  password: 5649c062bf0b037bee58842aa4b2a568
+  sni: ja304.magiclampcloud.cn
+  skip-cert-verify: true
+- type: trojan
+  name: '@DeltaKroneckerGithub | 1833ms'
+  server: ja262.magiclampcloud.cn
+  port: 59443
+  password: 6edc9363c16bb2f7861bc1ab96edd69f
+  sni: ja262.magiclampcloud.cn
+  skip-cert-verify: true
+- type: ss
+  name: '@DeltaKroneckerGithub | 1834ms'
+  server: 161.33.38.253
+  port: 443
+  cipher: none
+  password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+- type: trojan
+  name: '@DeltaKroneckerGithub | 1837ms'
+  server: tyy129.magiclampcloud.com
+  port: 59443
+  password: 3252f608e796316fbbac3359542f70d9
+  sni: tyy129.magiclampcloud.com
+- type: trojan
+  name: '@DeltaKroneckerGithub | 1838ms'
+  server: ja304.magiclampcloud.cn
+  port: 59443
+  password: 3520ebcc604f430b1abb25129b92ad03
+  sni: ja304.magiclampcloud.cn
+- type: trojan
+  name: '@DeltaKroneckerGithub | 1840ms'
+  server: tyy129.magiclampcloud.com
+  port: 59443
+  password: 690ffd98589eecac6ed2c40d56033d7c
+  sni: tyy129.magiclampcloud.com
+  skip-cert-verify: true
+- type: trojan
+  name: '@DeltaKroneckerGithub | 1842ms'
+  server: tyy129.magiclampcloud.com
+  port: 59443
+  password: 2a9457028b242be77f485aec3693cd8f
+  sni: tyy129.magiclampcloud.com
+- type: trojan
+  name: '@DeltaKroneckerGithub | 1843ms'
+  server: ja304.magiclampcloud.cn
+  port: 59443
+  password: 2ddeb5f43bbb897b13db728b2dfbef92
+  sni: ja304.magiclampcloud.cn
+- type: trojan
+  name: '@DeltaKroneckerGithub | 1848ms'
+  server: tyy129.magiclampcloud.com
+  port: 59443
+  password: 79489481b50562b988bf599736c8b0f9
+  sni: tyy129.magiclampcloud.com
+  skip-cert-verify: true
+- type: trojan
+  name: '@DeltaKroneckerGithub | 1852ms'
+  server: ja262.magiclampcloud.cn
+  port: 59443
+  password: ba981c8decd95953dcdb219c324e4e1d
+  sni: ja262.magiclampcloud.cn
+  skip-cert-verify: true
+- type: ss
+  name: '@DeltaKroneckerGithub | 1853ms'
+  server: 185.188.104.12
+  port: 443
+  cipher: none
+  password: RSzEIkk2EsHEAVj15N5E/A==
+- type: trojan
+  name: '@DeltaKroneckerGithub | 1854ms'
+  server: 118.253.167.243
+  port: 59443
+  password: 14bac0e43c849123ccb0fd0690f24316
+  sni: tyy129.magiclampcloud.com
+  skip-cert-verify: true
+- type: trojan
+  name: '@DeltaKroneckerGithub | 1854ms (2)'
+  server: ja262.magiclampcloud.cn
+  port: 59443
+  password: 254a0b7402009010a3740e084dff6b56
+  sni: ja262.magiclampcloud.cn
+  skip-cert-verify: true
+- type: ss
+  name: '@DeltaKroneckerGithub | 1857ms'
+  server: 172.64.153.86
+  port: 443
+  cipher: none
+  password: 79960b0b-7d31-4263-8915-6511b0e137a8
+- type: trojan
+  name: '@DeltaKroneckerGithub | 1859ms'
+  server: ja262.magiclampcloud.cn
+  port: 59443
+  password: c30973184a30818b4a19c8b247cc3cd4
+  sni: ja262.magiclampcloud.cn
+  skip-cert-verify: true
+- type: trojan
+  name: '@DeltaKroneckerGithub | 1861ms'
+  server: ja262.magiclampcloud.cn
+  port: 59443
+  password: 396b684da7e944a8f439669e24e8afed
+  sni: ja262.magiclampcloud.cn
+  skip-cert-verify: true
+- type: ss
+  name: '@DeltaKroneckerGithub | 1863ms'
+  server: 188.114.99.137
+  port: 8443
+  cipher: none
+  password: 59fc5f8c-5697-4eb8-acf2-8ae363f203a2
+- type: trojan
+  name: '@DeltaKroneckerGithub | 1867ms'
+  server: tyy129.magiclampcloud.com
+  port: 59443
+  password: 14bac0e43c849123ccb0fd0690f24316
+- type: ss
+  name: 🆔ar14n24b 🔒 SS-TCP-TLS ❔ XX 93ms | 1868ms
+  server: 185.216.177.197
+  port: 443
+  cipher: none
+  password: 59fc5f8c-5697-4eb8-acf2-8ae363f203a2
+- type: ss
+  name: '@DeltaKroneckerGithub | 1869ms'
+  server: 172.67.138.17
+  port: 443
+  cipher: none
+  password: 79960b0b-7d31-4263-8915-6511b0e137a8
+- type: trojan
+  name: '@DeltaKroneckerGithub | 1869ms (2)'
+  server: 91.192.81.167
+  port: 443
+  password: c623a730-48a2-11f0-b6c7-1239d0255272
+  sni: sg4.6n6.net
+  skip-cert-verify: true
+- type: trojan
+  name: '@DeltaKroneckerGithub | 1869ms (3)'
+  server: tyy129.magiclampcloud.com
+  port: 59443
+  password: bb611501dbb9aea577fd803fe11e945d
+  sni: tyy129.magiclampcloud.com
+- type: ss
+  name: '@DeltaKroneckerGithub | 1870ms'
+  server: 185.188.106.10
+  port: 443
+  cipher: none
+  password: RSzEIkk2EsHEAVj15N5E/A==
+- type: trojan
+  name: '@DeltaKroneckerGithub | 1870ms (2)'
+  server: ja304.magiclampcloud.cn
+  port: 59443
+  password: d453daeb7e9b5fb9cad882763bd71d85
+  sni: ja304.magiclampcloud.cn
+- type: trojan
+  name: '@DeltaKroneckerGithub | 1877ms'
+  server: ja262.magiclampcloud.cn
+  port: 59443
+  password: b4d7471e8bf6508a55dae8b38ba1a625
+  sni: ja262.magiclampcloud.cn
+  skip-cert-verify: true
+- type: trojan
+  name: '@DeltaKroneckerGithub | 1878ms'
+  server: ja262.magiclampcloud.cn
+  port: 59443
+  password: 49aebff08369239f0adc7c8512c995ec
+  sni: ja262.magiclampcloud.cn
+  skip-cert-verify: true
+- type: trojan
+  name: '@DeltaKroneckerGithub | 1879ms'
+  server: ja262.magiclampcloud.cn
+  port: 59443
+  password: ac4d690c48661daaceb616b04007e2b5
+  sni: ja262.magiclampcloud.cn
+  skip-cert-verify: true
+- type: trojan
+  name: '@DeltaKroneckerGithub | 1879ms (2)'
+  server: ja304.magiclampcloud.cn
+  port: 59443
+  password: 275edc5ad2872c5f40a15de8a9e95416
+  sni: ja304.magiclampcloud.cn
+- type: trojan
+  name: '@DeltaKroneckerGithub | 1880ms'
+  server: ja262.magiclampcloud.cn
+  port: 59443
+  password: 057c3dd2a74c74d1c71d63c098924d3d
+  sni: ja262.magiclampcloud.cn
+  skip-cert-verify: true
+- type: trojan
+  name: '@DeltaKroneckerGithub | 1887ms'
+  server: ja304.magiclampcloud.cn
+  port: 59443
+  password: 3083d270c621275837d5f509c0337c22
+  sni: ja304.magiclampcloud.cn
+  skip-cert-verify: true
+- type: ss
+  name: '@DeltaKroneckerGithub | 1890ms'
+  server: 104.26.5.60
+  port: 443
+  cipher: none
+  password: 79960b0b-7d31-4263-8915-6511b0e137a8
+- type: trojan
+  name: '@DeltaKroneckerGithub | 1891ms'
+  server: ja304.magiclampcloud.cn
+  port: 59443
+  password: 1c8c770339adb746416981873a96c423
+  skip-cert-verify: true
+- type: ss
+  name: '@DeltaKroneckerGithub | 1892ms'
+  server: 104.18.42.54
+  port: 443
+  cipher: none
+  password: 79960b0b-7d31-4263-8915-6511b0e137a8
+- type: ss
+  name: '@DeltaKroneckerGithub | 1895ms'
+  server: 8.6.112.0
+  port: 443
+  cipher: none
+  password: a491a742-5553-445b-829f-8f6a22921d46
+- type: ss
+  name: '@DeltaKroneckerGithub | 1897ms'
+  server: 185.188.105.10
+  port: 443
+  cipher: none
+  password: RSzEIkk2EsHEAVj15N5E/A==
+- type: trojan
+  name: '@DeltaKroneckerGithub | 1898ms'
+  server: 31.77.29.187
+  port: 443
+  password: SYVKJ3qYJnnN0FfRDXaEVQSE8zQHn6wF
+  sni: ja.nnmm.me
+- type: ss
+  name: '@DeltaKroneckerGithub | 1901ms'
+  server: 185.188.104.11
+  port: 443
+  cipher: none
+  password: RSzEIkk2EsHEAVj15N5E/A==
+- type: trojan
+  name: '@DeltaKroneckerGithub | 1910ms'
+  server: ja262.magiclampcloud.cn
+  port: 59443
+  password: da5051376e910e2b7c371ef039ab6a28
+- type: trojan
+  name: '@DeltaKroneckerGithub | 1912ms'
+  server: 35.77.216.3
+  port: 443
+  password: CXCu72eya8wFeRySSFpDz3CN6jBYac5OIl3q0gSl8xZOADY3EK94pxZanDA3RT
+  sni: broker.superpokemon.com
+  skip-cert-verify: true
+- type: ss
+  name: 🇩🇪 DE德国(mibei77.com 米贝节点分享) | 1915ms
   server: 47.254.128.109
   port: 443
-  password: 8yO3ANWefuuGs1lRKXECQA1FEhxlWFV2ppQMcBaZo5Y=
   cipher: 2022-blake3-chacha20-poly1305
-  tls: false
-  skip-cert-verify: false
-- type: socks5
-  name: 🇭🇰HK_99|480KB/s|S001-260618 [e29ef3611cba] | 3313ms
-  server: 219.78.223.199
-  port: 5001
-  username: Og==
-- name: 🇹🇭TH_8|376KB/s|R002-260618 [f10b406ce373] | 3316ms
-  password: zdnivBaI
-  port: 62000
-  server: 109.66.136.194
-  sub_tag: R002-260618
-  type: socks5
-  username: r3ZzP8WW
+  password: 8yO3ANWefuuGs1lRKXECQA1FEhxlWFV2ppQMcBaZo5Y=
+- type: trojan
+  name: '@DeltaKroneckerGithub | 1920ms'
+  server: 220.128.135.193
+  port: 8443
+  password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
+  sni: official.taipeicitygovernment.net.ua
+  skip-cert-verify: true
+- type: trojan
+  name: '@DeltaKroneckerGithub | 1920ms (2)'
+  server: tyy129.magiclampcloud.com
+  port: 59443
+  password: 4c1511d220e1437b234fa40571c43810
+  sni: tyy129.magiclampcloud.com
+- type: trojan
+  name: '@DeltaKroneckerGithub | 1925ms'
+  server: ja262.magiclampcloud.cn
+  port: 59443
+  password: b84de87320ca97b4ff862f916cc67eaa
+  sni: ja262.magiclampcloud.cn
+- type: trojan
+  name: '@DeltaKroneckerGithub | 1932ms'
+  server: tyy129.magiclampcloud.com
+  port: 59443
+  password: c300410095914c66daa846d8a5c92747
+  sni: tyy129.magiclampcloud.com
+  skip-cert-verify: true
 - type: ss
-  name: 🇮🇹_意大利 (10) | 3347ms
-  server: 202.50.253.63
+  name: 🆔ar14n24b 🔒 SS-TCP-TLS 🇺🇸 US 78ms | 1936ms
+  server: mfa.gov.ua
+  port: 443
+  cipher: none
+  password: 79960b0b-7d31-4263-8915-6511b0e137a8
+- type: trojan
+  name: '@DeltaKroneckerGithub | 1938ms'
+  server: 49.212.204.123
+  port: 443
+  password: 18844@zxcvbn
+  skip-cert-verify: true
+- type: ss
+  name: '@DeltaKroneckerGithub | 1939ms'
+  server: 104.26.14.21
+  port: 80
+  cipher: none
+  password: aaaaaabb-4ddd-4eee-9fff-ffffffffffff
+- type: ss
+  name: '@DeltaKroneckerGithub | 1939ms (2)'
+  server: 172.67.73.14
+  port: 80
+  cipher: none
+  password: aaaaaabb-4ddd-4eee-9fff-ffffffffffff
+- type: ss
+  name: '@DeltaKroneckerGithub | 1939ms (3)'
+  server: 172.64.150.130
+  port: 443
+  cipher: none
+  password: 79960b0b-7d31-4263-8915-6511b0e137a8
+- type: ss
+  name: '@DeltaKroneckerGithub | 1940ms'
+  server: 172.66.42.200
+  port: 8443
+  cipher: none
+  password: https://t.me/WangCai2🇨🇳
+- type: trojan
+  name: '@DeltaKroneckerGithub | 1943ms'
+  server: ja304.magiclampcloud.cn
+  port: 59443
+  password: cdc83e78afe4ef70ac895d88bcbc6bb5
+  sni: ja304.magiclampcloud.cn
+- type: trojan
+  name: '@DeltaKroneckerGithub | 1945ms'
+  server: 60.250.152.230
+  port: 3462
+  password: 6e1b9a65-884f-3aa9-9469-bf6ec0f08610
+  sni: a03.taipeicitygovernment.cn.ua
+  skip-cert-verify: true
+- type: trojan
+  name: '@DeltaKroneckerGithub | 1950ms'
+  server: ja304.magiclampcloud.cn
+  port: 59443
+  password: 7141b5f0592f2e7f459ea2e8cfcd8a84
+  sni: ja304.magiclampcloud.cn
+  skip-cert-verify: true
+- type: trojan
+  name: '@DeltaKroneckerGithub | 1953ms'
+  server: tyy129.magiclampcloud.com
+  port: 59443
+  password: 948b69750854dbc28a9ec20d947e36c6
+  sni: tyy129.magiclampcloud.com
+  skip-cert-verify: true
+- type: trojan
+  name: '@DeltaKroneckerGithub | 1954ms'
+  server: ja304.magiclampcloud.cn
+  port: 59443
+  password: 8551a9d47b390b78d3be443ad1d0019d
+  sni: ja304.magiclampcloud.cn
+- type: trojan
+  name: '@DeltaKroneckerGithub | 1958ms'
+  server: ja304.magiclampcloud.cn
+  port: 59443
+  password: c9d003ce58bcafecd687cd88256ce2ff
+  sni: ja304.magiclampcloud.cn
+  skip-cert-verify: true
+- type: trojan
+  name: 🔒 TR-TCP-TLS 🇹🇼 TW-220.128.128.151:3462 | 1959ms
+  server: 220.128.128.151
+  port: 3462
+  password: 6e1b9a65-884f-3aa9-9469-bf6ec0f08610
+  sni: a03.taipeicitygovernment.cn.ua
+  skip-cert-verify: true
+- type: trojan
+  name: '@DeltaKroneckerGithub | 1959ms'
+  server: tyy129.magiclampcloud.com
+  port: 59443
+  password: f12507bcc9bbae297ed77b94d9232ae6
+  sni: tyy129.magiclampcloud.com
+  skip-cert-verify: true
+- type: ss
+  name: '@DeltaKroneckerGithub | 1962ms'
+  server: 172.64.145.202
+  port: 443
+  cipher: none
+  password: 79960b0b-7d31-4263-8915-6511b0e137a8
+- type: ss
+  name: '@DeltaKroneckerGithub | 1967ms'
+  server: 172.64.145.158
+  port: 443
+  cipher: none
+  password: 79960b0b-7d31-4263-8915-6511b0e137a8
+- type: trojan
+  name: '@DeltaKroneckerGithub | 1969ms'
+  server: tyy129.magiclampcloud.com
+  port: 59443
+  password: f53d2b849a03b2e06fd1c1a04968aff6
+  sni: tyy129.magiclampcloud.com
+  skip-cert-verify: true
+- type: trojan
+  name: '@DeltaKroneckerGithub | 1972ms'
+  server: www.ddwhm.com
+  port: 443
+  password: blue2024
+  sni: ta.promote.icu
+  skip-cert-verify: true
+- type: ss
+  name: 🇩🇪 DE德国(mibei77.com 米贝节点分享) | 1973ms
+  server: 47.254.167.157
+  port: 443
+  cipher: 2022-blake3-chacha20-poly1305
+  password: 8yO3ANWefuuGs1lRKXECQA1FEhxlWFV2ppQMcBaZo5Y=
+- type: trojan
+  name: '@DeltaKroneckerGithub | 1976ms'
+  server: os-tr-5.cats22.net
+  port: 443
+  password: 18844@zxcvbn
+- type: trojan
+  name: '@DeltaKroneckerGithub | 1978ms'
+  server: ja262.magiclampcloud.cn
+  port: 59443
+  password: e5a3fe75c38be1dc79af933221d2d86a
+  sni: ja262.magiclampcloud.cn
+  skip-cert-verify: true
+- type: trojan
+  name: '@DeltaKroneckerGithub | 1980ms'
+  server: 152.175.36.33
+  port: 2053
+  password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
+  sni: official.tokyometropolis.chernigov.ua
+  skip-cert-verify: true
+- type: trojan
+  name: '@DeltaKroneckerGithub | 1980ms (2)'
+  server: tyy129.magiclampcloud.com
+  port: 59443
+  password: d86931c3cdedaae00c34a0ef62f744c6
+  sni: tyy129.magiclampcloud.com
+- type: trojan
+  name: 🔒 TR-TCP-TLS 🇹🇼 TW-60.250.80.31:3462 | 1982ms
+  server: 60.250.80.31
+  port: 3462
+  password: 6e1b9a65-884f-3aa9-9469-bf6ec0f08610
+  sni: a03.taipeicitygovernment.cn.ua
+  skip-cert-verify: true
+- type: trojan
+  name: '@DeltaKroneckerGithub | 1991ms'
+  server: 49.212.203.7
+  port: 443
+  password: 18844@zxcvbn
+  sni: os-tr-2.cats22.net
+  skip-cert-verify: true
+  alpn:
+  - http/1.1
+- type: trojan
+  name: '@DeltaKroneckerGithub | 1992ms'
+  server: ja304.magiclampcloud.cn
+  port: 59443
+  password: 90d4384d3893a8f46c45746e8abf889a
+  sni: ja304.magiclampcloud.cn
+  skip-cert-verify: true
+- type: trojan
+  name: 🔒 TR-TCP-TLS 🇹🇼 TW-60.250.80.130:3462 | 2005ms
+  server: 60.250.80.130
+  port: 3462
+  password: 6e1b9a65-884f-3aa9-9469-bf6ec0f08610
+  sni: a03.taipeicitygovernment.cn.ua
+  skip-cert-verify: true
+- type: trojan
+  name: '@DeltaKroneckerGithub | 2011ms'
+  server: ja304.magiclampcloud.cn
+  port: 59443
+  password: 7a5054478a34abfa1ca881874d3c5f62
+  sni: ja304.magiclampcloud.cn
+  skip-cert-verify: true
+- type: trojan
+  name: '@DeltaKroneckerGithub | 2023ms'
+  server: ja262.magiclampcloud.cn
+  port: 59443
+  password: 8560843d8550aa368674c3bf0d4d3ad8
+  sni: ja262.magiclampcloud.cn
+  skip-cert-verify: true
+- type: trojan
+  name: '@DeltaKroneckerGithub | 2037ms'
+  server: ja304.magiclampcloud.cn
+  port: 59443
+  password: 06cf12a7fab279375e55e2f0cfdef381
+  sni: ja304.magiclampcloud.cn
+- type: trojan
+  name: '@DeltaKroneckerGithub | 2039ms'
+  server: ja262.magiclampcloud.cn
+  port: 59443
+  password: 2fa9fbc5087f5905380fcac2479e2156
+- type: trojan
+  name: '@DeltaKroneckerGithub | 2042ms'
+  server: tyy129.magiclampcloud.com
+  port: 59443
+  password: 74bd27bf0a1968d15e8a020666472b47
+  sni: tyy129.magiclampcloud.com
+  skip-cert-verify: true
+- type: trojan
+  name: '@DeltaKroneckerGithub | 2045ms'
+  server: ja262.magiclampcloud.cn
+  port: 59443
+  password: 7834a6df93542db17c9a6be4e27d6059
+  sni: ja262.magiclampcloud.cn
+  skip-cert-verify: true
+- type: trojan
+  name: 🔒 TR-TCP-TLS 🇹🇼 TW-220.128.135.193:3462 | 2052ms
+  server: 220.128.135.193
+  port: 3462
+  password: 6e1b9a65-884f-3aa9-9469-bf6ec0f08610
+  sni: a03.taipeicitygovernment.cn.ua
+  skip-cert-verify: true
+- type: trojan
+  name: '@DeltaKroneckerGithub | 2052ms'
+  server: tyy129.magiclampcloud.com
+  port: 59443
+  password: fa33e21c919eae07cb838f3fa28c8608
+  sni: tyy129.magiclampcloud.com
+  skip-cert-verify: true
+- type: trojan
+  name: '@DeltaKroneckerGithub | 2054ms'
+  server: ja262.magiclampcloud.cn
+  port: 59443
+  password: 6c79e6675554006e607c490a168617ce
+  sni: ja262.magiclampcloud.cn
+  skip-cert-verify: true
+- type: trojan
+  name: '@DeltaKroneckerGithub | 2055ms'
+  server: ja262.magiclampcloud.cn
+  port: 59443
+  password: 21f23a6ab64758d06316c8184eb6344d
+  sni: ja262.magiclampcloud.cn
+  skip-cert-verify: true
+- type: ss
+  name: '@DeltaKroneckerGithub | 2061ms'
+  server: 162.159.14.127
+  port: 443
+  cipher: none
+  password: 79960b0b-7d31-4263-8915-6511b0e137a8
+- type: trojan
+  name: 🔒 TR-TCP-TLS 🇯🇵 JP-152.175.38.59:2053 | 2067ms
+  server: 152.175.38.59
+  port: 2053
+  password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
+  sni: official.tokyometropolis.chernigov.ua
+  skip-cert-verify: true
+- type: ss
+  name: 🇮🇹IT_11|218KB/s|A004-260618 [e44742cb8ed8] | 2071ms
+  server: 202.50.253.99
   port: 19999
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   cipher: aes-256-gcm
-  tls: false
-  skip-cert-verify: false
-- type: vmess
-  name: 🇺🇸US_804|495KB/s|C001-260618 [4e3b9532d837] | 3442ms
-  server: afzuv.xiaoyan.io
-  port: 16648
-  uuid: 904f0569-8695-466f-97cf-0de2face1b46
-  alterId: 0
-  cipher: auto
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: f9309cc88637c26f552a1a64fb311cae.mobgslb.tbcache.com
-- name: 🇺🇸US_727|697KB/s|R002-260618 [82bc43fb8ccb] | 3493ms
-  password: l1tlrdx52v
-  port: 62000
-  server: 66.253.2.69
-  sub_tag: R002-260618
-  type: socks5
-  username: u_rb1dba2
-- name: 🇹🇭TH_17|459KB/s|R002-260618 [464d3086d022] | 3625ms
-  password: ao3W5ZML
-  port: 42000
-  server: 168.222.8.119
-  sub_tag: R002-260618
-  type: socks5
-  username: JPjarpW3
-- name: 🇹🇭TH_20|576KB/s|S001-260618 [d591c4191f8f] | 3649ms
-  password: YlRoWvE0dL_cUqS94wPeKnA4
-  port: 62000
-  server: 87.84.49.206
-  skip-cert-verify: true
-  sub_tag: S001-260618
-  type: socks5
-  username: ks878449260d
-- type: socks5
-  name: 🇳🇱NL_223|981KB/s|S001-260618 [990082d6e5d2] | 3801ms
-  server: 57.128.249.250
-  port: 9052
-  username: Og==
-- name: 🇹🇭TH_10|578KB/s|R002-260618 [875ea96a51cf] | 3829ms
-  password: Ks4Iab43
-  port: 42000
-  server: 82.47.152.151
-  sub_tag: R002-260618
-  type: socks5
-  username: userLjVB
-- name: 🇹🇭TH_9|339KB/s|R002-260618 [97523c93a778] | 3882ms
-  password: zdnivBaI
-  port: 62000
-  server: 109.66.136.42
-  sub_tag: R002-260618
-  type: socks5
-  username: r3ZzP8WW
-- name: 🇺🇸US_729|258KB/s|R002-260618 [1951de2415e0] | 3951ms
-  password: kingstar123++
-  port: 62000
-  server: 23.230.200.250
-  sub_tag: R002-260618
-  type: socks5
-  username: kingstar123
-- name: 🇻🇳VN_5|400KB/s|R002-260618 [1ed94f8d82c9] | 4083ms
-  password: jHsK2gqs
-  port: 62000
-  server: 103.184.113.190
-  sub_tag: R002-260618
-  type: socks5
-  username: qT46DZLv
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
 - type: trojan
-  name: 🇺🇸_美国 (153) | 4108ms
-  server: sclass-01.catcat321.com
-  port: 20103
-  password: d7563108-615c-4338-a7bd-77f359869a4a
-  sni: hk.catxstar.com
-- name: 🇹🇭TH_7|331KB/s|R002-260618 [464b3437191d] | 4128ms
-  password: mpbK00Pl
-  port: 42000
-  server: 192.204.15.192
-  sub_tag: R002-260618
-  type: socks5
-  username: X3s3JteD
+  name: '@DeltaKroneckerGithub | 2074ms'
+  server: ja262.magiclampcloud.cn
+  port: 59443
+  password: 483bb26f72bf7e77f40ab78e4b319e49
+  sni: ja262.magiclampcloud.cn
+  skip-cert-verify: true
 - type: trojan
-  name: 🇺🇸_美国 (68) | 4157ms
-  server: sclass-c2.catcat321.com
-  port: 20051
-  password: d9064589-74af-432a-9390-5d8a9da281bf
-  sni: hk.catxstar.com
-- name: 🇲🇽MX_2|225KB/s|P002-260618 [e54cbc977cc8] | 4269ms
-  password: DJy1T0dt
-  port: 42000
-  server: 144.225.47.161
-  skip-cert-verify: true
-  sub_tag: P002-260618
-  type: socks5
-  username: Tek2x6av
-- name: 🇹🇭TH_11|490KB/s|R002-260618 [0e1f17200b32] | 4298ms
-  password: 1pB7HV6u
-  port: 42000
-  server: 151.246.109.158
-  sub_tag: R002-260618
-  type: socks5
-  username: AJ3d9gJw
-- name: 🇺🇸US_690|1.5MB/s|P002-260618 [c0b3b312046c] | 4304ms
-  password: None
-  port: 38182
-  server: 69.55.49.177
-  sub_tag: P002-260618
-  type: socks5
-- name: 🇸🇬SG_36|408KB/s|R002-260618 [e2924167f620] | 4367ms
-  password: "8888"
-  port: 1080
-  server: 47.236.168.243
-  skip-cert-verify: true
-  sub_tag: R002-260618
-  type: socks5
-  username: "8888"
-- type: socks5
-  name: 🇺🇸US_684|649KB/s|K001-260618 [c0e1d9c94bee] | 4446ms
-  server: 209.50.255.91
-  port: 1080
-  username: Og==
-- name: 🇹🇭TH_6|391KB/s|R002-260618 [849ebc43c563] | 4449ms
-  password: mpbK00Pl
-  port: 42000
-  server: 192.204.15.135
-  sub_tag: R002-260618
-  type: socks5
-  username: X3s3JteD
-- name: 🇲🇽MX_9|324KB/s|P002-260618 [a4fc8a9a0c8d] | 4525ms
-  password: sZnD8GTz
-  port: 42000
-  server: 144.225.47.158
-  skip-cert-verify: true
-  sub_tag: P002-260618
-  type: socks5
-  username: DJy1T0dt
-- name: 🇲🇽MX_4|409KB/s|R002-260618 [8153d1b7016b] | 4542ms
-  password: sZnD8GTz
-  port: 42000
-  server: 144.225.47.106
-  sub_tag: R002-260618
-  type: socks5
-  username: DJy1T0dt
-- name: 🇲🇽MX_3|308KB/s|R002-260618 [b7d81b4b7ca2] | 4562ms
-  password: DJy1T0dt
-  port: 42000
-  server: 144.225.47.8
-  sub_tag: R002-260618
-  type: socks5
-  username: Tek2x6av
-- name: 🇯🇵JP_80|372KB/s|P002-260618 [e5efa8f7a2fb] | 4706ms
-  password: EGJDy5Kg
-  port: 42000
-  server: 103.248.150.50
-  skip-cert-verify: true
-  sub_tag: P002-260618
-  type: socks5
-  username: paZFN3JA
-- name: 🇲🇽MX_10|724KB/s|K001-260618 [2b33d64efd58] | 4710ms
-  password: VvUAFi2E
-  port: 62000
-  server: 72.57.228.87
-  skip-cert-verify: true
-  sub_tag: K001-260618
-  type: socks5
-  username: UBXich0K
-- name: 🇹🇭TH_19|532KB/s|K001-260618 [c6bc9706b37b] | 4745ms
-  password: wj2sNvDu
-  port: 62000
-  server: 45.201.39.74
-  skip-cert-verify: true
-  sub_tag: K001-260618
-  type: socks5
-  username: y2stTQnf
+  name: '@DeltaKroneckerGithub | 2077ms'
+  server: ja304.magiclampcloud.cn
+  port: 59443
+  password: 48d435ae12ff0704baa7de0780d5dab5
+  sni: ja304.magiclampcloud.cn
 - type: trojan
-  name: 🇺🇸_美国 (147) | 4813ms
-  server: sclass-b1.catcat321.com
-  port: 20051
-  password: d7563108-615c-4338-a7bd-77f359869a4a
-  sni: hk.catxstar.com
-- name: 🇲🇽MX_6|195KB/s|R002-260618 [4414f12f0fa0] | 4828ms
-  password: sZnD8GTz
-  port: 42000
-  server: 144.225.47.68
-  sub_tag: R002-260618
-  type: socks5
-  username: DJy1T0dt
-- name: 🇹🇭TH_15|586KB/s|R002-260618 [744dddb58be2] | 4849ms
-  password: KT5hiU8o
-  port: 42000
-  server: 104.234.70.82
-  sub_tag: R002-260618
-  type: socks5
-  username: rnt2L4XO
-- name: 🇹🇭TH_21|303KB/s|R002-260618 [adb3477e8887] | 4866ms
-  password: ao3W5ZML
-  port: 42000
-  server: 168.222.8.66
-  sub_tag: R002-260618
-  type: socks5
-  username: JPjarpW3
-- name: 🇧🇷BR_7|480KB/s|R002-260618 [0a59d07494f6] | 4876ms
-  password: 0mvrt5jb
-  port: 62000
-  server: 191.7.129.133
-  sub_tag: R002-260618
-  type: socks5
-  username: uwrgfkwg
-- name: 🇲🇽MX_11|607KB/s|R002-260618 [f364ec713648] | 4879ms
-  password: KsPAxZGn
-  port: 42000
-  server: 94.194.166.52
-  sub_tag: R002-260618
-  type: socks5
-  username: userLRgK
+  name: '@DeltaKroneckerGithub | 2084ms'
+  server: 194.124.216.55
+  port: 443
+  password: VuyKYqyDTU1GFaxF3o
+  sni: nl-4.tr202504.com
+  skip-cert-verify: true
+  alpn:
+  - http/1.1
+- type: trojan
+  name: '@DeltaKroneckerGithub | 2085ms'
+  server: ja304.magiclampcloud.cn
+  port: 59443
+  password: 8ea984e1be9ce8206722eb08924039a2
+  sni: ja304.magiclampcloud.cn
+  skip-cert-verify: true
+- type: ss
+  name: 🇮🇹IT_15|364KB/s|B007-260618 [ec6a7ce2e167] | 2086ms
+  server: 202.50.253.36
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
 proxy-groups:
 - name: PROXY
   type: select
   proxies:
   - AUTO
   - DIRECT
-  - 🇩🇪_德国 (34) | 1641ms
-  - 🇮🇹_意大利 (2) | 1843ms
-  - 🇮🇹_意大利 (11) | 2300ms
-  - 🇺🇸US_805|515KB/s|C001-260618 [36370fcb48ce] | 2302ms
-  - 🇮🇹_意大利 (8) | 2367ms
-  - 🇮🇹_意大利 (7) | 2378ms
-  - 🇮🇹_意大利 (3) | 2501ms
-  - 🇸🇬SG_128|417KB/s|S001-260618 [5ad220ecfad2] | 2555ms
-  - 🇺🇸US_807|792KB/s|S001-260618 [59a600d82f05] | 2843ms
-  - 🇮🇹_意大利 (6) | 2873ms
-  - 🇮🇹_意大利 (5) | 2909ms
-  - 🇮🇹_意大利 (9) | 3028ms
-  - 🇮🇹_意大利 (4) | 3054ms
-  - 🇵🇭PH_1|191KB/s|R002-260618 [1ae4aa8e9ed4] | 3131ms
-  - 🇩🇪_德国 (16) | 3206ms
-  - 🇭🇰HK_99|480KB/s|S001-260618 [e29ef3611cba] | 3313ms
-  - 🇹🇭TH_8|376KB/s|R002-260618 [f10b406ce373] | 3316ms
-  - 🇮🇹_意大利 (10) | 3347ms
-  - 🇺🇸US_804|495KB/s|C001-260618 [4e3b9532d837] | 3442ms
-  - 🇺🇸US_727|697KB/s|R002-260618 [82bc43fb8ccb] | 3493ms
-  - 🇹🇭TH_17|459KB/s|R002-260618 [464d3086d022] | 3625ms
-  - 🇹🇭TH_20|576KB/s|S001-260618 [d591c4191f8f] | 3649ms
-  - 🇳🇱NL_223|981KB/s|S001-260618 [990082d6e5d2] | 3801ms
-  - 🇹🇭TH_10|578KB/s|R002-260618 [875ea96a51cf] | 3829ms
-  - 🇹🇭TH_9|339KB/s|R002-260618 [97523c93a778] | 3882ms
-  - 🇺🇸US_729|258KB/s|R002-260618 [1951de2415e0] | 3951ms
-  - 🇻🇳VN_5|400KB/s|R002-260618 [1ed94f8d82c9] | 4083ms
-  - 🇺🇸_美国 (153) | 4108ms
-  - 🇹🇭TH_7|331KB/s|R002-260618 [464b3437191d] | 4128ms
-  - 🇺🇸_美国 (68) | 4157ms
-  - 🇲🇽MX_2|225KB/s|P002-260618 [e54cbc977cc8] | 4269ms
-  - 🇹🇭TH_11|490KB/s|R002-260618 [0e1f17200b32] | 4298ms
-  - 🇺🇸US_690|1.5MB/s|P002-260618 [c0b3b312046c] | 4304ms
-  - 🇸🇬SG_36|408KB/s|R002-260618 [e2924167f620] | 4367ms
-  - 🇺🇸US_684|649KB/s|K001-260618 [c0e1d9c94bee] | 4446ms
-  - 🇹🇭TH_6|391KB/s|R002-260618 [849ebc43c563] | 4449ms
-  - 🇲🇽MX_9|324KB/s|P002-260618 [a4fc8a9a0c8d] | 4525ms
-  - 🇲🇽MX_4|409KB/s|R002-260618 [8153d1b7016b] | 4542ms
-  - 🇲🇽MX_3|308KB/s|R002-260618 [b7d81b4b7ca2] | 4562ms
-  - 🇯🇵JP_80|372KB/s|P002-260618 [e5efa8f7a2fb] | 4706ms
-  - 🇲🇽MX_10|724KB/s|K001-260618 [2b33d64efd58] | 4710ms
-  - 🇹🇭TH_19|532KB/s|K001-260618 [c6bc9706b37b] | 4745ms
-  - 🇺🇸_美国 (147) | 4813ms
-  - 🇲🇽MX_6|195KB/s|R002-260618 [4414f12f0fa0] | 4828ms
-  - 🇹🇭TH_15|586KB/s|R002-260618 [744dddb58be2] | 4849ms
-  - 🇹🇭TH_21|303KB/s|R002-260618 [adb3477e8887] | 4866ms
-  - 🇧🇷BR_7|480KB/s|R002-260618 [0a59d07494f6] | 4876ms
-  - 🇲🇽MX_11|607KB/s|R002-260618 [f364ec713648] | 4879ms
+  - '@DeltaKroneckerGithub | 1421ms'
+  - '@DeltaKroneckerGithub | 1534ms'
+  - '@DeltaKroneckerGithub | 1600ms'
+  - '@DeltaKroneckerGithub | 1624ms'
+  - '@DeltaKroneckerGithub | 1628ms'
+  - '@DeltaKroneckerGithub | 1634ms'
+  - '@DeltaKroneckerGithub | 1636ms'
+  - '@DeltaKroneckerGithub | 1657ms'
+  - '@DeltaKroneckerGithub | 1667ms'
+  - '@DeltaKroneckerGithub | 1667ms (2)'
+  - '@DeltaKroneckerGithub | 1678ms'
+  - '@DeltaKroneckerGithub | 1682ms'
+  - '@DeltaKroneckerGithub | 1684ms'
+  - '@DeltaKroneckerGithub | 1684ms (2)'
+  - '@DeltaKroneckerGithub | 1690ms'
+  - '@DeltaKroneckerGithub | 1690ms (2)'
+  - '@DeltaKroneckerGithub | 1695ms'
+  - '@DeltaKroneckerGithub | 1695ms (2)'
+  - '@DeltaKroneckerGithub | 1702ms'
+  - '@DeltaKroneckerGithub | 1702ms (2)'
+  - '@DeltaKroneckerGithub | 1707ms'
+  - '@DeltaKroneckerGithub | 1715ms'
+  - '@DeltaKroneckerGithub | 1716ms'
+  - '@DeltaKroneckerGithub | 1726ms'
+  - '@DeltaKroneckerGithub | 1726ms (2)'
+  - '@DeltaKroneckerGithub | 1729ms'
+  - '@DeltaKroneckerGithub | 1735ms'
+  - '@DeltaKroneckerGithub | 1737ms'
+  - '@DeltaKroneckerGithub | 1738ms'
+  - '@DeltaKroneckerGithub | 1743ms'
+  - '@DeltaKroneckerGithub | 1744ms'
+  - '@DeltaKroneckerGithub | 1748ms'
+  - '@DeltaKroneckerGithub | 1752ms'
+  - '@DeltaKroneckerGithub | 1754ms'
+  - '@DeltaKroneckerGithub | 1755ms'
+  - '@DeltaKroneckerGithub | 1767ms'
+  - '@DeltaKroneckerGithub | 1770ms'
+  - '@DeltaKroneckerGithub | 1770ms (2)'
+  - '@DeltaKroneckerGithub | 1772ms'
+  - 🇮🇹IT_18|130KB/s|A004-260618 [a31029bc3d86] | 1773ms
+  - '@DeltaKroneckerGithub | 1775ms'
+  - '@DeltaKroneckerGithub | 1778ms'
+  - 🇮🇹IT_14|502KB/s|A004-260618 [f636961637ce] | 1779ms
+  - '@DeltaKroneckerGithub | 1779ms'
+  - '@DeltaKroneckerGithub | 1781ms'
+  - '@DeltaKroneckerGithub | 1783ms'
+  - '@DeltaKroneckerGithub | 1783ms (2)'
+  - '@DeltaKroneckerGithub | 1785ms'
+  - '@DeltaKroneckerGithub | 1786ms'
+  - '@DeltaKroneckerGithub | 1790ms'
+  - '@DeltaKroneckerGithub | 1790ms (2)'
+  - '@DeltaKroneckerGithub | 1806ms'
+  - '@DeltaKroneckerGithub | 1808ms'
+  - '@DeltaKroneckerGithub | 1812ms'
+  - '@DeltaKroneckerGithub | 1812ms (2)'
+  - '@DeltaKroneckerGithub | 1820ms'
+  - '@DeltaKroneckerGithub | 1822ms'
+  - '@DeltaKroneckerGithub | 1825ms'
+  - '@DeltaKroneckerGithub | 1827ms'
+  - 🇳🇱225182 | ⚡️Telegram = t.me/SOSkeyNET | 1828ms
+  - '@DeltaKroneckerGithub | 1830ms'
+  - '@DeltaKroneckerGithub | 1832ms'
+  - '@DeltaKroneckerGithub | 1833ms'
+  - '@DeltaKroneckerGithub | 1834ms'
+  - '@DeltaKroneckerGithub | 1837ms'
+  - '@DeltaKroneckerGithub | 1838ms'
+  - '@DeltaKroneckerGithub | 1840ms'
+  - '@DeltaKroneckerGithub | 1842ms'
+  - '@DeltaKroneckerGithub | 1843ms'
+  - '@DeltaKroneckerGithub | 1848ms'
+  - '@DeltaKroneckerGithub | 1852ms'
+  - '@DeltaKroneckerGithub | 1853ms'
+  - '@DeltaKroneckerGithub | 1854ms'
+  - '@DeltaKroneckerGithub | 1854ms (2)'
+  - '@DeltaKroneckerGithub | 1857ms'
+  - '@DeltaKroneckerGithub | 1859ms'
+  - '@DeltaKroneckerGithub | 1861ms'
+  - '@DeltaKroneckerGithub | 1863ms'
+  - '@DeltaKroneckerGithub | 1867ms'
+  - 🆔ar14n24b 🔒 SS-TCP-TLS ❔ XX 93ms | 1868ms
+  - '@DeltaKroneckerGithub | 1869ms'
+  - '@DeltaKroneckerGithub | 1869ms (2)'
+  - '@DeltaKroneckerGithub | 1869ms (3)'
+  - '@DeltaKroneckerGithub | 1870ms'
+  - '@DeltaKroneckerGithub | 1870ms (2)'
+  - '@DeltaKroneckerGithub | 1877ms'
+  - '@DeltaKroneckerGithub | 1878ms'
+  - '@DeltaKroneckerGithub | 1879ms'
+  - '@DeltaKroneckerGithub | 1879ms (2)'
+  - '@DeltaKroneckerGithub | 1880ms'
+  - '@DeltaKroneckerGithub | 1887ms'
+  - '@DeltaKroneckerGithub | 1890ms'
+  - '@DeltaKroneckerGithub | 1891ms'
+  - '@DeltaKroneckerGithub | 1892ms'
+  - '@DeltaKroneckerGithub | 1895ms'
+  - '@DeltaKroneckerGithub | 1897ms'
+  - '@DeltaKroneckerGithub | 1898ms'
+  - '@DeltaKroneckerGithub | 1901ms'
+  - '@DeltaKroneckerGithub | 1910ms'
+  - '@DeltaKroneckerGithub | 1912ms'
+  - 🇩🇪 DE德国(mibei77.com 米贝节点分享) | 1915ms
+  - '@DeltaKroneckerGithub | 1920ms'
+  - '@DeltaKroneckerGithub | 1920ms (2)'
+  - '@DeltaKroneckerGithub | 1925ms'
+  - '@DeltaKroneckerGithub | 1932ms'
+  - 🆔ar14n24b 🔒 SS-TCP-TLS 🇺🇸 US 78ms | 1936ms
+  - '@DeltaKroneckerGithub | 1938ms'
+  - '@DeltaKroneckerGithub | 1939ms'
+  - '@DeltaKroneckerGithub | 1939ms (2)'
+  - '@DeltaKroneckerGithub | 1939ms (3)'
+  - '@DeltaKroneckerGithub | 1940ms'
+  - '@DeltaKroneckerGithub | 1943ms'
+  - '@DeltaKroneckerGithub | 1945ms'
+  - '@DeltaKroneckerGithub | 1950ms'
+  - '@DeltaKroneckerGithub | 1953ms'
+  - '@DeltaKroneckerGithub | 1954ms'
+  - '@DeltaKroneckerGithub | 1958ms'
+  - 🔒 TR-TCP-TLS 🇹🇼 TW-220.128.128.151:3462 | 1959ms
+  - '@DeltaKroneckerGithub | 1959ms'
+  - '@DeltaKroneckerGithub | 1962ms'
+  - '@DeltaKroneckerGithub | 1967ms'
+  - '@DeltaKroneckerGithub | 1969ms'
+  - '@DeltaKroneckerGithub | 1972ms'
+  - 🇩🇪 DE德国(mibei77.com 米贝节点分享) | 1973ms
+  - '@DeltaKroneckerGithub | 1976ms'
+  - '@DeltaKroneckerGithub | 1978ms'
+  - '@DeltaKroneckerGithub | 1980ms'
+  - '@DeltaKroneckerGithub | 1980ms (2)'
+  - 🔒 TR-TCP-TLS 🇹🇼 TW-60.250.80.31:3462 | 1982ms
+  - '@DeltaKroneckerGithub | 1991ms'
+  - '@DeltaKroneckerGithub | 1992ms'
+  - 🔒 TR-TCP-TLS 🇹🇼 TW-60.250.80.130:3462 | 2005ms
+  - '@DeltaKroneckerGithub | 2011ms'
+  - '@DeltaKroneckerGithub | 2023ms'
+  - '@DeltaKroneckerGithub | 2037ms'
+  - '@DeltaKroneckerGithub | 2039ms'
+  - '@DeltaKroneckerGithub | 2042ms'
+  - '@DeltaKroneckerGithub | 2045ms'
+  - 🔒 TR-TCP-TLS 🇹🇼 TW-220.128.135.193:3462 | 2052ms
+  - '@DeltaKroneckerGithub | 2052ms'
+  - '@DeltaKroneckerGithub | 2054ms'
+  - '@DeltaKroneckerGithub | 2055ms'
+  - '@DeltaKroneckerGithub | 2061ms'
+  - 🔒 TR-TCP-TLS 🇯🇵 JP-152.175.38.59:2053 | 2067ms
+  - 🇮🇹IT_11|218KB/s|A004-260618 [e44742cb8ed8] | 2071ms
+  - '@DeltaKroneckerGithub | 2074ms'
+  - '@DeltaKroneckerGithub | 2077ms'
+  - '@DeltaKroneckerGithub | 2084ms'
+  - '@DeltaKroneckerGithub | 2085ms'
+  - 🇮🇹IT_15|364KB/s|B007-260618 [ec6a7ce2e167] | 2086ms
 - name: AUTO
   type: url-test
   proxies:
-  - 🇩🇪_德国 (34) | 1641ms
-  - 🇮🇹_意大利 (2) | 1843ms
-  - 🇮🇹_意大利 (11) | 2300ms
-  - 🇺🇸US_805|515KB/s|C001-260618 [36370fcb48ce] | 2302ms
-  - 🇮🇹_意大利 (8) | 2367ms
-  - 🇮🇹_意大利 (7) | 2378ms
-  - 🇮🇹_意大利 (3) | 2501ms
-  - 🇸🇬SG_128|417KB/s|S001-260618 [5ad220ecfad2] | 2555ms
-  - 🇺🇸US_807|792KB/s|S001-260618 [59a600d82f05] | 2843ms
-  - 🇮🇹_意大利 (6) | 2873ms
-  - 🇮🇹_意大利 (5) | 2909ms
-  - 🇮🇹_意大利 (9) | 3028ms
-  - 🇮🇹_意大利 (4) | 3054ms
-  - 🇵🇭PH_1|191KB/s|R002-260618 [1ae4aa8e9ed4] | 3131ms
-  - 🇩🇪_德国 (16) | 3206ms
-  - 🇭🇰HK_99|480KB/s|S001-260618 [e29ef3611cba] | 3313ms
-  - 🇹🇭TH_8|376KB/s|R002-260618 [f10b406ce373] | 3316ms
-  - 🇮🇹_意大利 (10) | 3347ms
-  - 🇺🇸US_804|495KB/s|C001-260618 [4e3b9532d837] | 3442ms
-  - 🇺🇸US_727|697KB/s|R002-260618 [82bc43fb8ccb] | 3493ms
-  - 🇹🇭TH_17|459KB/s|R002-260618 [464d3086d022] | 3625ms
-  - 🇹🇭TH_20|576KB/s|S001-260618 [d591c4191f8f] | 3649ms
-  - 🇳🇱NL_223|981KB/s|S001-260618 [990082d6e5d2] | 3801ms
-  - 🇹🇭TH_10|578KB/s|R002-260618 [875ea96a51cf] | 3829ms
-  - 🇹🇭TH_9|339KB/s|R002-260618 [97523c93a778] | 3882ms
-  - 🇺🇸US_729|258KB/s|R002-260618 [1951de2415e0] | 3951ms
-  - 🇻🇳VN_5|400KB/s|R002-260618 [1ed94f8d82c9] | 4083ms
-  - 🇺🇸_美国 (153) | 4108ms
-  - 🇹🇭TH_7|331KB/s|R002-260618 [464b3437191d] | 4128ms
-  - 🇺🇸_美国 (68) | 4157ms
-  - 🇲🇽MX_2|225KB/s|P002-260618 [e54cbc977cc8] | 4269ms
-  - 🇹🇭TH_11|490KB/s|R002-260618 [0e1f17200b32] | 4298ms
-  - 🇺🇸US_690|1.5MB/s|P002-260618 [c0b3b312046c] | 4304ms
-  - 🇸🇬SG_36|408KB/s|R002-260618 [e2924167f620] | 4367ms
-  - 🇺🇸US_684|649KB/s|K001-260618 [c0e1d9c94bee] | 4446ms
-  - 🇹🇭TH_6|391KB/s|R002-260618 [849ebc43c563] | 4449ms
-  - 🇲🇽MX_9|324KB/s|P002-260618 [a4fc8a9a0c8d] | 4525ms
-  - 🇲🇽MX_4|409KB/s|R002-260618 [8153d1b7016b] | 4542ms
-  - 🇲🇽MX_3|308KB/s|R002-260618 [b7d81b4b7ca2] | 4562ms
-  - 🇯🇵JP_80|372KB/s|P002-260618 [e5efa8f7a2fb] | 4706ms
-  - 🇲🇽MX_10|724KB/s|K001-260618 [2b33d64efd58] | 4710ms
-  - 🇹🇭TH_19|532KB/s|K001-260618 [c6bc9706b37b] | 4745ms
-  - 🇺🇸_美国 (147) | 4813ms
-  - 🇲🇽MX_6|195KB/s|R002-260618 [4414f12f0fa0] | 4828ms
-  - 🇹🇭TH_15|586KB/s|R002-260618 [744dddb58be2] | 4849ms
-  - 🇹🇭TH_21|303KB/s|R002-260618 [adb3477e8887] | 4866ms
-  - 🇧🇷BR_7|480KB/s|R002-260618 [0a59d07494f6] | 4876ms
-  - 🇲🇽MX_11|607KB/s|R002-260618 [f364ec713648] | 4879ms
+  - '@DeltaKroneckerGithub | 1421ms'
+  - '@DeltaKroneckerGithub | 1534ms'
+  - '@DeltaKroneckerGithub | 1600ms'
+  - '@DeltaKroneckerGithub | 1624ms'
+  - '@DeltaKroneckerGithub | 1628ms'
+  - '@DeltaKroneckerGithub | 1634ms'
+  - '@DeltaKroneckerGithub | 1636ms'
+  - '@DeltaKroneckerGithub | 1657ms'
+  - '@DeltaKroneckerGithub | 1667ms'
+  - '@DeltaKroneckerGithub | 1667ms (2)'
+  - '@DeltaKroneckerGithub | 1678ms'
+  - '@DeltaKroneckerGithub | 1682ms'
+  - '@DeltaKroneckerGithub | 1684ms'
+  - '@DeltaKroneckerGithub | 1684ms (2)'
+  - '@DeltaKroneckerGithub | 1690ms'
+  - '@DeltaKroneckerGithub | 1690ms (2)'
+  - '@DeltaKroneckerGithub | 1695ms'
+  - '@DeltaKroneckerGithub | 1695ms (2)'
+  - '@DeltaKroneckerGithub | 1702ms'
+  - '@DeltaKroneckerGithub | 1702ms (2)'
+  - '@DeltaKroneckerGithub | 1707ms'
+  - '@DeltaKroneckerGithub | 1715ms'
+  - '@DeltaKroneckerGithub | 1716ms'
+  - '@DeltaKroneckerGithub | 1726ms'
+  - '@DeltaKroneckerGithub | 1726ms (2)'
+  - '@DeltaKroneckerGithub | 1729ms'
+  - '@DeltaKroneckerGithub | 1735ms'
+  - '@DeltaKroneckerGithub | 1737ms'
+  - '@DeltaKroneckerGithub | 1738ms'
+  - '@DeltaKroneckerGithub | 1743ms'
+  - '@DeltaKroneckerGithub | 1744ms'
+  - '@DeltaKroneckerGithub | 1748ms'
+  - '@DeltaKroneckerGithub | 1752ms'
+  - '@DeltaKroneckerGithub | 1754ms'
+  - '@DeltaKroneckerGithub | 1755ms'
+  - '@DeltaKroneckerGithub | 1767ms'
+  - '@DeltaKroneckerGithub | 1770ms'
+  - '@DeltaKroneckerGithub | 1770ms (2)'
+  - '@DeltaKroneckerGithub | 1772ms'
+  - 🇮🇹IT_18|130KB/s|A004-260618 [a31029bc3d86] | 1773ms
+  - '@DeltaKroneckerGithub | 1775ms'
+  - '@DeltaKroneckerGithub | 1778ms'
+  - 🇮🇹IT_14|502KB/s|A004-260618 [f636961637ce] | 1779ms
+  - '@DeltaKroneckerGithub | 1779ms'
+  - '@DeltaKroneckerGithub | 1781ms'
+  - '@DeltaKroneckerGithub | 1783ms'
+  - '@DeltaKroneckerGithub | 1783ms (2)'
+  - '@DeltaKroneckerGithub | 1785ms'
+  - '@DeltaKroneckerGithub | 1786ms'
+  - '@DeltaKroneckerGithub | 1790ms'
+  - '@DeltaKroneckerGithub | 1790ms (2)'
+  - '@DeltaKroneckerGithub | 1806ms'
+  - '@DeltaKroneckerGithub | 1808ms'
+  - '@DeltaKroneckerGithub | 1812ms'
+  - '@DeltaKroneckerGithub | 1812ms (2)'
+  - '@DeltaKroneckerGithub | 1820ms'
+  - '@DeltaKroneckerGithub | 1822ms'
+  - '@DeltaKroneckerGithub | 1825ms'
+  - '@DeltaKroneckerGithub | 1827ms'
+  - 🇳🇱225182 | ⚡️Telegram = t.me/SOSkeyNET | 1828ms
+  - '@DeltaKroneckerGithub | 1830ms'
+  - '@DeltaKroneckerGithub | 1832ms'
+  - '@DeltaKroneckerGithub | 1833ms'
+  - '@DeltaKroneckerGithub | 1834ms'
+  - '@DeltaKroneckerGithub | 1837ms'
+  - '@DeltaKroneckerGithub | 1838ms'
+  - '@DeltaKroneckerGithub | 1840ms'
+  - '@DeltaKroneckerGithub | 1842ms'
+  - '@DeltaKroneckerGithub | 1843ms'
+  - '@DeltaKroneckerGithub | 1848ms'
+  - '@DeltaKroneckerGithub | 1852ms'
+  - '@DeltaKroneckerGithub | 1853ms'
+  - '@DeltaKroneckerGithub | 1854ms'
+  - '@DeltaKroneckerGithub | 1854ms (2)'
+  - '@DeltaKroneckerGithub | 1857ms'
+  - '@DeltaKroneckerGithub | 1859ms'
+  - '@DeltaKroneckerGithub | 1861ms'
+  - '@DeltaKroneckerGithub | 1863ms'
+  - '@DeltaKroneckerGithub | 1867ms'
+  - 🆔ar14n24b 🔒 SS-TCP-TLS ❔ XX 93ms | 1868ms
+  - '@DeltaKroneckerGithub | 1869ms'
+  - '@DeltaKroneckerGithub | 1869ms (2)'
+  - '@DeltaKroneckerGithub | 1869ms (3)'
+  - '@DeltaKroneckerGithub | 1870ms'
+  - '@DeltaKroneckerGithub | 1870ms (2)'
+  - '@DeltaKroneckerGithub | 1877ms'
+  - '@DeltaKroneckerGithub | 1878ms'
+  - '@DeltaKroneckerGithub | 1879ms'
+  - '@DeltaKroneckerGithub | 1879ms (2)'
+  - '@DeltaKroneckerGithub | 1880ms'
+  - '@DeltaKroneckerGithub | 1887ms'
+  - '@DeltaKroneckerGithub | 1890ms'
+  - '@DeltaKroneckerGithub | 1891ms'
+  - '@DeltaKroneckerGithub | 1892ms'
+  - '@DeltaKroneckerGithub | 1895ms'
+  - '@DeltaKroneckerGithub | 1897ms'
+  - '@DeltaKroneckerGithub | 1898ms'
+  - '@DeltaKroneckerGithub | 1901ms'
+  - '@DeltaKroneckerGithub | 1910ms'
+  - '@DeltaKroneckerGithub | 1912ms'
+  - 🇩🇪 DE德国(mibei77.com 米贝节点分享) | 1915ms
+  - '@DeltaKroneckerGithub | 1920ms'
+  - '@DeltaKroneckerGithub | 1920ms (2)'
+  - '@DeltaKroneckerGithub | 1925ms'
+  - '@DeltaKroneckerGithub | 1932ms'
+  - 🆔ar14n24b 🔒 SS-TCP-TLS 🇺🇸 US 78ms | 1936ms
+  - '@DeltaKroneckerGithub | 1938ms'
+  - '@DeltaKroneckerGithub | 1939ms'
+  - '@DeltaKroneckerGithub | 1939ms (2)'
+  - '@DeltaKroneckerGithub | 1939ms (3)'
+  - '@DeltaKroneckerGithub | 1940ms'
+  - '@DeltaKroneckerGithub | 1943ms'
+  - '@DeltaKroneckerGithub | 1945ms'
+  - '@DeltaKroneckerGithub | 1950ms'
+  - '@DeltaKroneckerGithub | 1953ms'
+  - '@DeltaKroneckerGithub | 1954ms'
+  - '@DeltaKroneckerGithub | 1958ms'
+  - 🔒 TR-TCP-TLS 🇹🇼 TW-220.128.128.151:3462 | 1959ms
+  - '@DeltaKroneckerGithub | 1959ms'
+  - '@DeltaKroneckerGithub | 1962ms'
+  - '@DeltaKroneckerGithub | 1967ms'
+  - '@DeltaKroneckerGithub | 1969ms'
+  - '@DeltaKroneckerGithub | 1972ms'
+  - 🇩🇪 DE德国(mibei77.com 米贝节点分享) | 1973ms
+  - '@DeltaKroneckerGithub | 1976ms'
+  - '@DeltaKroneckerGithub | 1978ms'
+  - '@DeltaKroneckerGithub | 1980ms'
+  - '@DeltaKroneckerGithub | 1980ms (2)'
+  - 🔒 TR-TCP-TLS 🇹🇼 TW-60.250.80.31:3462 | 1982ms
+  - '@DeltaKroneckerGithub | 1991ms'
+  - '@DeltaKroneckerGithub | 1992ms'
+  - 🔒 TR-TCP-TLS 🇹🇼 TW-60.250.80.130:3462 | 2005ms
+  - '@DeltaKroneckerGithub | 2011ms'
+  - '@DeltaKroneckerGithub | 2023ms'
+  - '@DeltaKroneckerGithub | 2037ms'
+  - '@DeltaKroneckerGithub | 2039ms'
+  - '@DeltaKroneckerGithub | 2042ms'
+  - '@DeltaKroneckerGithub | 2045ms'
+  - 🔒 TR-TCP-TLS 🇹🇼 TW-220.128.135.193:3462 | 2052ms
+  - '@DeltaKroneckerGithub | 2052ms'
+  - '@DeltaKroneckerGithub | 2054ms'
+  - '@DeltaKroneckerGithub | 2055ms'
+  - '@DeltaKroneckerGithub | 2061ms'
+  - 🔒 TR-TCP-TLS 🇯🇵 JP-152.175.38.59:2053 | 2067ms
+  - 🇮🇹IT_11|218KB/s|A004-260618 [e44742cb8ed8] | 2071ms
+  - '@DeltaKroneckerGithub | 2074ms'
+  - '@DeltaKroneckerGithub | 2077ms'
+  - '@DeltaKroneckerGithub | 2084ms'
+  - '@DeltaKroneckerGithub | 2085ms'
+  - 🇮🇹IT_15|364KB/s|B007-260618 [ec6a7ce2e167] | 2086ms
   url: http://www.gstatic.com/generate_204
   interval: 300
   tolerance: 50
