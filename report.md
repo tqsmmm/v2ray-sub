@@ -1,6 +1,6 @@
-# 免费订阅节点测试报告 — 2026-11-23 批次
+# 免费订阅节点测试报告 — 2026-11-24 批次
 
-测试时间：2026-11-23（北京时间）。订阅源为 2026-11-23 Grok 自动化邮件中的 14 个链接（13 个可下载，1 个截断无法补全）。
+测试时间：2026-11-24（北京时间）。订阅源为 2026-11-24 Grok 自动化邮件中的 15 个链接（14 个可下载，1 个截断无法补全）。
 本次为家用代理测试：每个节点经家用代理拨号，口径为“在家宽下可用”。
 
 ## 方法
@@ -10,63 +10,62 @@
 - 测试中只请求 generate_204，不经过节点发送任何用户数据或凭证；
 - 去重口径：(协议, 服务器, 端口, uuid/密码) 相同算同一个节点；
 - 测试方式：家用代理测试——每个节点经 dialer-proxy（home-proxy）拨号，即本地转发器 → Tailscale 隧道 → NAS 上的家用代理，出口为家宽网络；口径为“在家宽下可用”，即节点必须从家宽网络连通才算可用；
-- 两轮逐个测试：第一轮逐个测试复核出 531 个可用；对第一轮失败的 19783 个节点又单独复测一轮，新增 30 个可用；本报告以两轮逐个测试结果为准。
-- 限制：本机禁止 UDP 出站（实测 UDP DNS 查询被拒绝），因此 hysteria2 / tuic（走 QUIC/UDP）无法在本机验证，本批 214 个 hysteria2 节点及 2 个 tuic 节点均未计入可用——不是证实已死，而是无法测试；如需用 hysteria2，请在支持 UDP 的客户端上自行测速。
+- 两轮逐个测试：第一轮逐个测试复核出 52 个可用；对第一轮失败的 4871 个节点又单独复测一轮，新增 8 个可用；本报告以两轮逐个测试结果为准。
+- 限制：本机禁止 UDP 出站（实测 UDP DNS 查询被拒绝），因此 hysteria2 / tuic（走 QUIC/UDP）无法在本机验证，本批 102 个 hysteria2 节点均未计入可用——不是证实已死，而是无法测试；如需用 hysteria2，请在支持 UDP 的客户端上自行测速。
 
 ## 总览
 
-- 解析出唯一节点：**20653** 个（13 个源，去重后）
-- 进入测试：**20314** 个（339 个因配置无效被排除：控制字符 125、未知 ss 加密方式 150、无效密钥 49、空密码 14、无效服务器 1）
-- 实测可用：**561** 个（2.8%），其中第一轮 531 个、复测新增 30 个
-- 可用节点共 561 个，超过 150 上限，只保留最快的 150 个
+- 解析出唯一节点：**4944** 个（14 个源，去重后）
+- 进入测试：**4923** 个（21 个因配置无效被排除，mihomo 无法加载）
+- 实测可用：**60** 个（1.2%），其中第一轮 52 个、复测新增 8 个
+- 输出上限 150 个，本批可用 60 个，全部保留，按延迟从低到高排序
 
 ## 各源解析情况
 
 | 来源 | 下载 | 新增节点数 |
 |---|---|---|
-| danmaifu v2ray-20261123.txt | ✅ | 837 条新增，18 条无法解析 |
-| danmaifu clash-20261123.yaml | ✅ | 44 条新增，文件内共 1240 条 |
-| mehrtat vless-collector sub.txt | ✅ | 60 条新增 |
-| mfuu FreeProxies sub | ✅ | 32 条新增，65 条无法解析 |
-| mfuu FreeProxies sub.yaml | ✅ | 0 条新增，文件内共 123 条 |
-| clashv2ray-hub v2ray.txt | ❌ 下载失败（返回空文件） | 0 |
-| free18 v.txt | ✅ | 147 条新增，181 条无法解析 |
-| free18 c.yaml | ✅ | 43 条新增，文件内共 423 条 |
-| Au1rxx free-vpn-subscriptions v2ray-base64.txt | ✅ | 367 条新增 |
-| Au1rxx free-vpn-subscriptions clash.yaml | ✅ | 0 条新增，文件内共 1751 条 |
-| MatinGhanbari v2ray-configs all_sub.txt | ✅ | 3426 条新增，28 条无法解析 |
-| 10Dream sub-mod mix.txt | ✅ | 15695 条新增，5449 条无法解析 |
-| v2raydog 20261123.txt | ✅ | 2 条新增 |
+| mfuu FreeProxies sub | ✅ | 9 条新增，2 条无法解析 |
+| mfuu FreeProxies sub.yaml | ✅ | 1 条新增，文件内共 11 条 |
+| danmaifu v2ray-20261124.txt | ✅ | 863 条新增，29 条无法解析 |
+| danmaifu clash-20261124.yaml | ✅ | 50 条新增，文件内共 1320 条 |
+| MatinGhanbari v2ray-configs super-sub.txt | ✅ | 185 条新增，7 条无法解析 |
+| MatinGhanbari v2ray-configs all_sub.txt | ✅ | 3365 条新增，20 条无法解析 |
+| barry-far V2ray-config Sub1.txt | ✅ | 163 条新增，35 条无法解析 |
+| 0xRadikal Free-v2ray-Configs configs_base64.txt | ✅ | 261 条新增，7 条无法解析 |
+| 0xRadikal Free-v2ray-Configs clash.yaml | ✅ | 0 条新增，文件内共 1008 条 |
+| zhulinghuanyu Subscribe v2ray.txt | ✅ | 18 条新增 |
+| zhulinghuanyu Subscribe clash.yaml | ✅ | 0 条新增，文件内共 20 条 |
+| leidahub v2ray.txt | ✅ | 29 条新增，11 条无法解析 |
+| leidahub clash.yaml | ✅ | 0 条新增，文件内共 497 条 |
+| leidahub sing-box.json | ✅ | 0 条新增，文件内共 518 条 |
 
-说明：多个源来自同一上游节点池（如 free18 的 raw 与 jsdelivr 镜像内容相同、danmaifu 与其他源高度重合），后解析的源新增为 0 是去重后的正常结果。
+说明：多个源来自同一上游节点池（如 leidahub 的三个文件内容高度重合、zhulinghuanyu 与 0xRadikal 的 clash 文件与各自的 v2ray/base64 文件重复），后解析的源新增为 0 是去重后的正常结果。
 
 ## 延迟分布（可用节点）
 
-- 最快：1421 ms；中位数（保留的 150 个）：1858 ms；中位数（全部 561 个可用节点）：2527 ms；最慢（保留的）：2086 ms
-- 按协议：{'ss': 55, 'trojan': 95}
+- 最快：1905 ms；中位数：3966 ms；最慢（保留的）：4980 ms
+- 按协议：{'ss': 9, 'socks5': 47, 'vmess': 3, 'vless': 1}
 
 ## 最快的 10 个节点
 
 | # | 名称 | 协议 | 服务器 | 延迟 |
 |---|---|---|---|---|
-| 1 | @DeltaKroneckerGithub | 1421ms | ss | 49.142.200.31:28017 | 1421 ms |
-| 2 | @DeltaKroneckerGithub | 1534ms | ss | 172.67.70.92:443 | 1534 ms |
-| 3 | @DeltaKroneckerGithub | 1600ms | ss | 104.18.43.174:443 | 1600 ms |
-| 4 | @DeltaKroneckerGithub | 1624ms | trojan | ja262.magiclampcloud.cn:59443 | 1624 ms |
-| 5 | @DeltaKroneckerGithub | 1628ms | ss | 188.114.99.137:443 | 1628 ms |
-| 6 | @DeltaKroneckerGithub | 1634ms | ss | 188.114.99.137:2053 | 1634 ms |
-| 7 | @DeltaKroneckerGithub | 1636ms | ss | 104.18.41.190:443 | 1636 ms |
-| 8 | @DeltaKroneckerGithub | 1657ms | trojan | ja262.magiclampcloud.cn:59443 | 1657 ms |
-| 9 | @DeltaKroneckerGithub | 1667ms | ss | 185.188.104.10:443 | 1667 ms |
-| 10 | @DeltaKroneckerGithub | 1667ms | ss | 172.66.42.200:2083 | 1667 ms |
+| 1 | 🇮🇹IT_15|211KB/s|A004-260618 [f636961637ce] | 1905ms | ss | 202.50.253.72:19999 | 1905 ms |
+| 2 | 🇮🇹IT_2|2.4MB/s|B007-260618 [6cd37388feed] | 2228ms | ss | 202.50.253.18:19999 | 2228 ms |
+| 3 | 🇮🇹IT_18|2.2MB/s|C001-260618 [8f5882501e50] | 2456ms | ss | 202.50.253.90:19999 | 2456 ms |
+| 4 | 🇮🇹IT_1|1.4MB/s|B007-260618 [6c3edab0d12d] | 2601ms | ss | 202.50.253.54:19999 | 2601 ms |
+| 5 | 🇮🇹IT_12|3.1MB/s|A004-260618 [a31029bc3d86] | 2619ms | ss | 202.50.253.81:19999 | 2619 ms |
+| 6 | 🇵🇭PH_1|502KB/s|R002-260618 [1ae4aa8e9ed4] | 2933ms | socks5 | 103.18.230.88:42000 | 2933 ms |
+| 7 | DE 🇩🇪 | @Raydikalx | 3DA64C | 3079ms | vmess | planb.mojcn.com.linuxlh.xin:16622 | 3079 ms |
+| 8 | 🇳🇿 新西兰 V2CROSS.COM | 3265ms | ss | 202.50.253.99:19999 | 3265 ms |
+| 9 | 🇻🇳VN_6|76KB/s|R002-260618 [6d6a890a0e15] | 3323ms | socks5 | 103.184.113.236:62000 | 3323 ms |
+| 10 | 🇹🇭TH_14|571KB/s|S001-260618 [d591c4191f8f] | 3361ms | socks5 | 87.84.49.206:62000 | 3361 ms |
 
 ## 未纳入的节点
 
-- `06_clashv2rayhub`（clashv2ray-hub/v2rayfree）下载返回空文件，两次重试均为 0 字节；
-- 邮件第 14 个链接仅显示为 https://nodesub.v2raydog（截断），无法补全，未纳入；
-- `05_mfuu_yaml` 源文件第 83 行等 2 行 YAML 格式损坏，改按逐行解析，其余 121 行均与已解析节点重复，未新增节点；
-- hysteria v1、http、ssr、anytls 类型节点不在本次订阅口径内，未测试；
-- 339 个节点因配置无效被排除（控制字符 125、未知 ss 加密方式 150、无效密钥 49、空密码 14、无效服务器 1）；
+- 邮件第 15 个链接仅显示为 https://ra（截断），无法补全，未纳入；
+- hysteria v1、http、ssr 类型节点不在本次订阅口径内，未测试；
+- 21 个节点因配置无效被排除（2022-blake3 密钥长度不对 20 个、服务器地址无效 1 个，mihomo 无法加载）；
 - 其余节点在 5 秒内无响应或握手失败。
 
 ## 输出文件
