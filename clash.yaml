@@ -10,700 +10,8 @@ dns:
   - 8.8.8.8
   - 1.1.1.1
 proxies:
-- type: ss
-  name: 🇮🇹_意大利 (7) | 2136ms
-  server: 202.50.253.81
-  port: 19999
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  cipher: aes-256-gcm
-  tls: false
-  skip-cert-verify: true
-- type: ss
-  name: 🇮🇹_意大利 (8) | 2230ms
-  server: 202.50.253.27
-  port: 19999
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  cipher: aes-256-gcm
-  tls: false
-  skip-cert-verify: true
-- type: ss
-  name: 🇯🇵_日本 (11) | 2275ms
-  server: 8.216.7.10
-  port: 6666
-  password: "123456"
-  cipher: aes-256-gcm
-  tls: false
-  skip-cert-verify: true
-- type: trojan
-  name: trojan-1938650863 | 2352ms
-  server: 42.51.25.69
-  port: 59443
-  password: 254a0b7402009010a3740e084dff6b56
-  sni: ja262.magiclampcloud.cn
-  skip-cert-verify: true
-- type: trojan
-  name: trojan-1929356561 | 2355ms
-  server: tyy129.magiclampcloud.com
-  port: 59443
-  password: e53ec9194c1b433d78afe55ad01b3bb7
-  sni: tyy129.magiclampcloud.com
-- type: trojan
-  name: trojan-1943700986 | 2371ms
-  server: ja304.magiclampcloud.cn
-  port: 59443
-  password: e8aaaf6f97db95a2faa5af0c1566385b
-  sni: ja304.magiclampcloud.cn
-  skip-cert-verify: true
-- type: trojan
-  name: trojan-1929357974 | 2377ms
-  server: ja262.magiclampcloud.cn
-  port: 59443
-  password: 254a0b7402009010a3740e084dff6b56
-  sni: ja262.magiclampcloud.cn
-  skip-cert-verify: true
-- type: trojan
-  name: trojan-1929354458 | 2424ms
-  server: ja262.magiclampcloud.cn
-  port: 59443
-  password: fcee28341b091d3045cca8e1e280316a
-  sni: ja262.magiclampcloud.cn
-- type: trojan
-  name: trojan-1918521094 | 2448ms
-  server: ja262.magiclampcloud.cn
-  port: 59443
-  password: 6c79e6675554006e607c490a168617ce
-  sni: ja262.magiclampcloud.cn
-  skip-cert-verify: true
-- type: trojan
-  name: trojan-1945995987 | 2451ms
-  server: ja304.magiclampcloud.cn
-  port: 59443
-  password: 48d435ae12ff0704baa7de0780d5dab5
-  sni: ja304.magiclampcloud.cn
-- type: trojan
-  name: trojan-1932659503 | 2474ms
-  server: tyy129.magiclampcloud.com
-  port: 59443
-  password: b6d41b0db4bdd2a1d8d66b42dbdae4af
-  sni: tyy129.magiclampcloud.com
-  skip-cert-verify: true
-- type: trojan
-  name: trojan-1934342940 | 2500ms
-  server: ja262.magiclampcloud.cn
-  port: 59443
-  password: ce0c3a409dd52a7fcefeb25dc7e32d5f
-  sni: ja262.magiclampcloud.cn
-  skip-cert-verify: true
-- type: trojan
-  name: trojan-1918521759 | 2501ms
-  server: ja262.magiclampcloud.cn
-  port: 59443
-  password: 970cff306f67f10cb3aa6cad2f73c2e2
-  sni: ja262.magiclampcloud.cn
-- type: ss
-  name: 🇮🇹_意大利 (10) | 2548ms
-  server: 202.50.253.90
-  port: 19999
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  cipher: aes-256-gcm
-  tls: false
-  skip-cert-verify: true
-- type: trojan
-  name: trojan-1913371595 | 2557ms
-  server: ja304.magiclampcloud.cn
-  port: 59443
-  password: 81f683c3f594588c69c9494526a57f3d
-  sni: ja304.magiclampcloud.cn
-  skip-cert-verify: true
-- type: trojan
-  name: trojan-1916662007 | 2590ms
-  server: ja262.magiclampcloud.cn
-  port: 59443
-  password: 6edc9363c16bb2f7861bc1ab96edd69f
-  sni: ja262.magiclampcloud.cn
-  skip-cert-verify: true
-- type: trojan
-  name: trojan-1914941978 | 2596ms
-  server: ja262.magiclampcloud.cn
-  port: 59443
-  password: c30973184a30818b4a19c8b247cc3cd4
-  sni: ja262.magiclampcloud.cn
-  skip-cert-verify: true
-- type: trojan
-  name: trojan-1918520394 | 2596ms
-  server: tyy129.magiclampcloud.com
-  port: 59443
-  password: 690ffd98589eecac6ed2c40d56033d7c
-  sni: tyy129.magiclampcloud.com
-  skip-cert-verify: true
-- type: trojan
-  name: trojan-1929114989 | 2596ms
-  server: tyy129.magiclampcloud.com
-  port: 59443
-  password: aa47bc798fe7d60f6e1e56fb32d2954a
-  sni: tyy129.magiclampcloud.com
-- type: trojan
-  name: trojan-1927385122 | 2601ms
-  server: ja262.magiclampcloud.cn
-  port: 59443
-  password: 21f23a6ab64758d06316c8184eb6344d
-  sni: ja262.magiclampcloud.cn
-- type: trojan
-  name: trojan-1945995980 | 2602ms
-  server: tyy129.magiclampcloud.com
-  port: 59443
-  password: 8e0cfdddbb7314e5c110576e7edec1f9
-  sni: tyy129.magiclampcloud.com
-- type: trojan
-  name: trojan-1927385115 | 2606ms
-  server: ja262.magiclampcloud.cn
-  port: 59443
-  password: 8560843d8550aa368674c3bf0d4d3ad8
-  sni: ja262.magiclampcloud.cn
-  skip-cert-verify: true
-- type: trojan
-  name: trojan-1934995163 | 2617ms
-  server: ja262.magiclampcloud.cn
-  port: 59443
-  password: 8a6691810c87dd1c7ac2ac7103c334d9
-  sni: ja262.magiclampcloud.cn
-  skip-cert-verify: true
-- type: trojan
-  name: trojan-1934993074 | 2633ms
-  server: tyy129.magiclampcloud.com
-  port: 59443
-  password: 3a18d2d9d4caa3b86b241bbd37c90a40
-- type: trojan
-  name: trojan-1938651542 | 2635ms
-  server: tyy129.magiclampcloud.com
-  port: 59443
-  password: 7e62aec6f4a54b44cd439321c825d71b
-  sni: tyy129.magiclampcloud.com
-- type: ss
-  name: 🇮🇹_意大利 (9) | 2637ms
-  server: 202.50.253.63
-  port: 19999
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  cipher: aes-256-gcm
-  tls: false
-  skip-cert-verify: true
-- type: ss
-  name: 🇩🇪_德国 (39) | 2642ms
-  server: 47.254.167.157
-  port: 443
-  password: 8yO3ANWefuuGs1lRKXECQA1FEhxlWFV2ppQMcBaZo5Y=
-  cipher: 2022-blake3-chacha20-poly1305
-  tls: false
-  skip-cert-verify: true
-- type: trojan
-  name: trojan-1913368862 | 2660ms
-  server: ja304.magiclampcloud.cn
-  port: 59443
-  password: 81352974801287f06ab58f555f45ef0b
-  sni: ja304.magiclampcloud.cn
-  skip-cert-verify: true
-- type: trojan
-  name: trojan-1945978586 | 2672ms
-  server: tyy129.magiclampcloud.com
-  port: 59443
-  password: dc8487a54e41ae2a680b14ab235a30a2
-- type: trojan
-  name: trojan-1914945553 | 2673ms
-  server: ja262.magiclampcloud.cn
-  port: 59443
-  password: 2ce88088024f525d77c2bda96e81d737
-  sni: ja262.magiclampcloud.cn
-- type: trojan
-  name: trojan-1927385818 | 2684ms
-  server: ja262.magiclampcloud.cn
-  port: 59443
-  password: 433eeaa26c6cfb611ac76aa154368ed1
-- type: ss
-  name: 🇮🇹_意大利 (3) | 2690ms
-  server: 202.50.253.99
-  port: 19999
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  cipher: aes-256-gcm
-  tls: false
-  skip-cert-verify: true
-- type: trojan
-  name: trojan-1923888982 | 2691ms
-  server: tyy129.magiclampcloud.com
-  port: 59443
-  password: 74577e02978f5758d19f276a502b24b5
-  sni: tyy129.magiclampcloud.com
-  skip-cert-verify: true
-- type: trojan
-  name: trojan-1947502275 | 2705ms
-  server: 118.253.167.243
-  port: 59443
-  password: 4c1511d220e1437b234fa40571c43810
-  sni: tyy129.magiclampcloud.com
-  skip-cert-verify: true
-- type: trojan
-  name: trojan-1914941297 | 2708ms
-  server: ja304.magiclampcloud.cn
-  port: 59443
-  password: 3083d270c621275837d5f509c0337c22
-- type: trojan
-  name: trojan-1913370951 | 2717ms
-  server: tyy129.magiclampcloud.com
-  port: 59443
-  password: 13e6b9f9497485cdedfdc59328e6a8ad
-  sni: tyy129.magiclampcloud.com
-- type: trojan
-  name: trojan-1945995993 | 2722ms
-  server: ja262.magiclampcloud.cn
-  port: 59443
-  password: 7834a6df93542db17c9a6be4e27d6059
-  sni: ja262.magiclampcloud.cn
-- type: ss
-  name: 🇩🇪_德国 (18) | 2729ms
-  server: 47.254.128.109
-  port: 443
-  password: 8yO3ANWefuuGs1lRKXECQA1FEhxlWFV2ppQMcBaZo5Y=
-  cipher: 2022-blake3-chacha20-poly1305
-  tls: false
-  skip-cert-verify: true
-- type: trojan
-  name: trojan-1937252745 | 2730ms
-  server: tyy129.magiclampcloud.com
-  port: 59443
-  password: 948b69750854dbc28a9ec20d947e36c6
-  sni: tyy129.magiclampcloud.com
-  skip-cert-verify: true
-- type: trojan
-  name: trojan-1913371622 | 2731ms
-  server: tyy129.magiclampcloud.com
-  port: 59443
-  password: f53d2b849a03b2e06fd1c1a04968aff6
-  sni: tyy129.magiclampcloud.com
-- type: trojan
-  name: trojan-1887119831 | 2737ms
-  server: ja304.magiclampcloud.cn
-  port: 59443
-  password: 1c8c770339adb746416981873a96c423
-  skip-cert-verify: true
-- type: trojan
-  name: trojan-1934541793 | 2738ms
-  server: tyy129.magiclampcloud.com
-  port: 59443
-  password: 4c1511d220e1437b234fa40571c43810
-  sni: tyy129.magiclampcloud.com
-- type: trojan
-  name: trojan-1934992382 | 2748ms
-  server: tyy129.magiclampcloud.com
-  port: 59443
-  password: 7f7c7a51bcfdbefacd90e0cb3e2c8638
-  sni: tyy129.magiclampcloud.com
-  skip-cert-verify: true
-- type: trojan
-  name: trojan-1943672353 | 2749ms
-  server: ja304.magiclampcloud.cn
-  port: 59443
-  password: 828b96278358962c945c18913e3ce5b7
-  sni: ja304.magiclampcloud.cn
-- type: trojan
-  name: trojan-1929352365 | 2750ms
-  server: tyy129.magiclampcloud.com
-  port: 59443
-  password: 2bfc5fda7fbccde82d6fada1465d131c
-  sni: tyy129.magiclampcloud.com
-- type: trojan
-  name: trojan-1914944114 | 2762ms
-  server: tyy129.magiclampcloud.com
-  port: 59443
-  password: c300410095914c66daa846d8a5c92747
-- type: trojan
-  name: trojan-1913371641 | 2772ms
-  server: tyy129.magiclampcloud.com
-  port: 59443
-  password: 299954a05eabaed82063bdff0ff4cae2
-- type: trojan
-  name: trojan-1927384427 | 2772ms
-  server: tyy129.magiclampcloud.com
-  port: 59443
-  password: 4fa64bc99914bc5e4339589945720e94
-- type: ss
-  name: 🇮🇹_意大利 (2) | 2779ms
-  server: 202.50.253.18
-  port: 19999
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  cipher: aes-256-gcm
-  tls: false
-  skip-cert-verify: true
-- type: trojan
-  name: trojan-1913370931 | 2784ms
-  server: ja304.magiclampcloud.cn
-  port: 59443
-  password: c9d003ce58bcafecd687cd88256ce2ff
-  sni: ja304.magiclampcloud.cn
-  skip-cert-verify: true
-- type: ss
-  name: 🇮🇹_意大利 | 2788ms
-  server: 202.50.253.36
-  port: 19999
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  cipher: aes-256-gcm
-  tls: false
-  skip-cert-verify: true
-- type: trojan
-  name: trojan-1932660225 | 2789ms
-  server: tyy129.magiclampcloud.com
-  port: 59443
-  password: fa33e21c919eae07cb838f3fa28c8608
-  sni: tyy129.magiclampcloud.com
-  skip-cert-verify: true
-- type: trojan
-  name: trojan-1929114984 | 2791ms
-  server: ja262.magiclampcloud.cn
-  port: 59443
-  password: c89b4be208a7edb8edca2c3e847a5e3a
-  sni: ja262.magiclampcloud.cn
-  skip-cert-verify: true
-- type: trojan
-  name: trojan-1927383733 | 2795ms
-  server: ja262.magiclampcloud.cn
-  port: 59443
-  password: 5cbfc58f2ca9478a08c96ad942513920
-- type: trojan
-  name: trojan-1898582852 | 2797ms
-  server: ja262.magiclampcloud.cn
-  port: 59443
-  password: 057c3dd2a74c74d1c71d63c098924d3d
-  sni: ja262.magiclampcloud.cn
-  skip-cert-verify: true
-- type: trojan
-  name: trojan-1913371601 | 2807ms
-  server: ja304.magiclampcloud.cn
-  port: 59443
-  password: 7a5054478a34abfa1ca881874d3c5f62
-  sni: ja304.magiclampcloud.cn
-  skip-cert-verify: true
-- type: trojan
-  name: trojan-1898582841 | 2808ms
-  server: tyy129.magiclampcloud.com
-  port: 59443
-  password: 2a9457028b242be77f485aec3693cd8f
-- type: ss
-  name: 🇮🇹_意大利 (4) | 2812ms
-  server: 202.50.253.72
-  port: 19999
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  cipher: aes-256-gcm
-  tls: false
-  skip-cert-verify: true
-- type: trojan
-  name: trojan-1916661319 | 2826ms
-  server: tyy129.magiclampcloud.com
-  port: 59443
-  password: 881340284b2ba5737f5f892a846c2940
-  sni: tyy129.magiclampcloud.com
-- type: trojan
-  name: trojan-1947502342 | 2831ms
-  server: tyy129.magiclampcloud.com
-  port: 59443
-  password: e66417ea965ad6f00c09db996575bed2
-  sni: tyy129.magiclampcloud.com
-  skip-cert-verify: true
-- type: trojan
-  name: trojan-1934345102 | 2841ms
-  server: ja262.magiclampcloud.cn
-  port: 59443
-  password: 002023c45d18bca3eba2757bb683309a
-  skip-cert-verify: true
-- type: trojan
-  name: trojan-1913368154 | 2843ms
-  server: ja304.magiclampcloud.cn
-  port: 59443
-  password: 7141b5f0592f2e7f459ea2e8cfcd8a84
-  sni: ja304.magiclampcloud.cn
-- type: ss
-  name: 🇮🇹_意大利 (5) | 2845ms
-  server: 202.50.253.54
-  port: 19999
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  cipher: aes-256-gcm
-  tls: false
-  skip-cert-verify: true
-- type: trojan
-  name: trojan-1927385816 | 2852ms
-  server: ja262.magiclampcloud.cn
-  port: 59443
-  password: dd135b010b5f8ec7ba4c4cc5a35f0efb
-  sni: ja262.magiclampcloud.cn
-  skip-cert-verify: true
-- type: trojan
-  name: trojan-1898582833 | 2853ms
-  server: tyy129.magiclampcloud.com
-  port: 59443
-  password: 14bac0e43c849123ccb0fd0690f24316
-- type: trojan
-  name: trojan-1926549954 | 2859ms
-  server: ja262.magiclampcloud.cn
-  port: 59443
-  password: 22905eeb40abd86cf8314faceeefb35d
-  sni: ja262.magiclampcloud.cn
-- type: trojan
-  name: trojan-1900998121 | 2860ms
-  server: ja304.magiclampcloud.cn
-  port: 59443
-  password: 1a4dbf8b75346468b85c8d7f70c0cc75
-- type: ss
-  name: 🇮🇹_意大利 (6) | 2875ms
-  server: 202.50.253.45
-  port: 19999
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  cipher: aes-256-gcm
-  tls: false
-  skip-cert-verify: true
-- type: trojan
-  name: trojan-1898582873 | 2876ms
-  server: ja304.magiclampcloud.cn
-  port: 59443
-  password: 1268e67e8d569099e8abb463d08fe0e4
-  sni: ja304.magiclampcloud.cn
-  skip-cert-verify: true
-- type: trojan
-  name: trojan-1930538318 | 2876ms
-  server: ja304.magiclampcloud.cn
-  port: 59443
-  password: 3493ff930d879b214732f71d449538d6
-  sni: ja304.magiclampcloud.cn
-- type: trojan
-  name: trojan-1930538308 | 2879ms
-  server: ja262.magiclampcloud.cn
-  port: 59443
-  password: 396b684da7e944a8f439669e24e8afed
-  sni: ja262.magiclampcloud.cn
-  skip-cert-verify: true
-- type: trojan
-  name: trojan-1913368173 | 2883ms
-  server: ja304.magiclampcloud.cn
-  port: 59443
-  password: 53e00b660ad5da37f677dafeee646c9b
-  sni: ja304.magiclampcloud.cn
-- type: trojan
-  name: trojan-1914943415 | 2890ms
-  server: ja262.magiclampcloud.cn
-  port: 59443
-  password: 483bb26f72bf7e77f40ab78e4b319e49
-  sni: ja262.magiclampcloud.cn
-- type: trojan
-  name: trojan-1936763604 | 2896ms
-  server: ja262.magiclampcloud.cn
-  port: 59443
-  password: 6fac6920d85a061cc5bb88ea80e6a703
-- type: trojan
-  name: trojan-1926289810 | 2910ms
-  server: ja304.magiclampcloud.cn
-  port: 59443
-  password: 9f08b5c59e0e0f5235d111cab8a3fe1b
-  sni: ja304.magiclampcloud.cn
-  skip-cert-verify: true
-- type: trojan
-  name: trojan-1914946226 | 2934ms
-  server: ja304.magiclampcloud.cn
-  port: 59443
-  password: 5649c062bf0b037bee58842aa4b2a568
-- type: trojan
-  name: trojan-1887119826 | 2938ms
-  server: tyy129.magiclampcloud.com
-  port: 59443
-  password: 4d8e20bdae228d69021cdac530a5ce6d
-  skip-cert-verify: true
-- type: trojan
-  name: trojan-1916657876 | 2960ms
-  server: tyy129.magiclampcloud.com
-  port: 59443
-  password: e1cb7ebf88a4b935a9ccc5378660ecc2
-  sni: tyy129.magiclampcloud.com
-  skip-cert-verify: true
-- type: trojan
-  name: trojan-1935808991 | 2960ms
-  server: ja262.magiclampcloud.cn
-  port: 59443
-  password: e9432eaf9d5269025086d1c0375855ea
-  sni: ja262.magiclampcloud.cn
-  skip-cert-verify: true
-- type: ss
-  name: 🇺🇸_美国 (79) | 2968ms
-  server: 47.85.227.36
-  port: 443
-  password: 3NBsnBLanPfG6i3S2GTHineswr6EeSJPb0PCeMQoGoA=
-  cipher: 2022-blake3-chacha20-poly1305
-  tls: false
-  skip-cert-verify: true
-- type: trojan
-  name: trojan-1925930935 | 2995ms
-  server: ja304.magiclampcloud.cn
-  port: 59443
-  password: fb334d27c52a3bed052f7c14bdc18963
-  sni: ja304.magiclampcloud.cn
-  skip-cert-verify: true
-- type: trojan
-  name: trojan-1914941272 | 3021ms
-  server: ja262.magiclampcloud.cn
-  port: 59443
-  password: ee633fac24a4a265077aa7290e3d29d0
-  sni: ja262.magiclampcloud.cn
-- type: trojan
-  name: trojan-1913368144 | 3025ms
-  server: tyy129.magiclampcloud.com
-  port: 59443
-  password: d7f4b46d9e42ad4a6519bde2ff7ce43c
-  sni: tyy129.magiclampcloud.com
-- type: trojan
-  name: trojan-1913372988 | 3040ms
-  server: tyy129.magiclampcloud.com
-  port: 59443
-  password: 73a21f82e484bc746b7b3e8b742622e1
-  sni: tyy129.magiclampcloud.com
-- type: trojan
-  name: trojan-1925751207 | 3050ms
-  server: tyy129.magiclampcloud.com
-  port: 59443
-  password: 77c2c63b9b3081a8deab212050ba5472
-  sni: tyy129.magiclampcloud.com
-- type: trojan
-  name: trojan-1913372302 | 3056ms
-  server: ja304.magiclampcloud.cn
-  port: 59443
-  password: 3520ebcc604f430b1abb25129b92ad03
-  sni: ja304.magiclampcloud.cn
-- type: trojan
-  name: trojan-1930538306 | 3067ms
-  server: ja304.magiclampcloud.cn
-  port: 59443
-  password: 8ea984e1be9ce8206722eb08924039a2
-  sni: ja304.magiclampcloud.cn
-  skip-cert-verify: true
-- type: trojan
-  name: trojan-1898582858 | 3162ms
-  server: ja262.magiclampcloud.cn
-  port: 59443
-  password: ac312a46f833789e1e5c87222ec9949f
-- type: trojan
-  name: trojan-1918525191 | 3185ms
-  server: tyy129.magiclampcloud.com
-  port: 59443
-  password: a74c18e385d4df373ae7871c331cc88b
-- type: trojan
-  name: trojan-1898582865 | 3186ms
-  server: tyy129.magiclampcloud.com
-  port: 59443
-  password: 094a90dd5480ed7702597be34aeaacf7
-- type: trojan
-  name: trojan-1937252771 | 3196ms
-  server: ja304.magiclampcloud.cn
-  port: 59443
-  password: 3cd6031c7173d0584ebbaae1a17d4b60
-  sni: ja304.magiclampcloud.cn
-  skip-cert-verify: true
-- type: trojan
-  name: trojan-1918523145 | 3209ms
-  server: ja262.magiclampcloud.cn
-  port: 59443
-  password: 1ad0aff9c95a0ee59d12b0e2bc905ff4
-- type: trojan
-  name: trojan-1913368142 | 3215ms
-  server: tyy129.magiclampcloud.com
-  port: 59443
-  password: 21fe8584f34486531ca5c3583775f80f
-  sni: tyy129.magiclampcloud.com
-- type: trojan
-  name: trojan-1930538333 | 3246ms
-  server: ja304.magiclampcloud.cn
-  port: 59443
-  password: 90d4384d3893a8f46c45746e8abf889a
-  sni: ja304.magiclampcloud.cn
-- type: trojan
-  name: trojan-1925754738 | 3300ms
-  server: tyy129.magiclampcloud.com
-  port: 59443
-  password: f12507bcc9bbae297ed77b94d9232ae6
-  sni: tyy129.magiclampcloud.com
-  skip-cert-verify: true
-- type: trojan
-  name: trojan-1918522453 | 3304ms
-  server: ja262.magiclampcloud.cn
-  port: 59443
-  password: cd15fc4b277f0a8a251e174c3e387dbc
-  sni: ja262.magiclampcloud.cn
-  skip-cert-verify: true
-- type: trojan
-  name: trojan-1913371607 | 3347ms
-  server: tyy129.magiclampcloud.com
-  port: 59443
-  password: 6bd61140c3512e2b9c2be81ed012faff
-  sni: tyy129.magiclampcloud.com
-- type: trojan
-  name: trojan-1914942687 | 3462ms
-  server: ja262.magiclampcloud.cn
-  port: 59443
-  password: 0f3a49a77c569bc5cb7e272777ff4b4d
-  sni: ja262.magiclampcloud.cn
-  skip-cert-verify: true
-- type: trojan
-  name: trojan-1947305947 | 3498ms
-  server: ja262.magiclampcloud.cn
-  port: 59443
-  password: a0d94e10446eef0e1eebb4f6c177512d
-  sni: ja262.magiclampcloud.cn
-  skip-cert-verify: true
-- type: trojan
-  name: 🇺🇸US-15.204.248.103-5412 | 3525ms
-  server: 15.204.248.103
-  port: 443
-  password: 2ee85121-31de-4581-a492-eb00f606e392
-  sni: rs3.freeguard.org
-- type: trojan
-  name: trojan-1913372283 | 3579ms
-  server: ja262.magiclampcloud.cn
-  port: 59443
-  password: e5a3fe75c38be1dc79af933221d2d86a
-- type: trojan
-  name: خرید وی پی ان ارزان @NoraPingBot | 3589ms
-  server: 160.21.74.183
-  port: 8443
-  password: ZLNrfFIw6IXWvhFvGEWi4EcsWJ76ZiDh
-  sni: 160.21.74.183
-  skip-cert-verify: true
-- type: vless
-  name: 🇷🇺_俄罗斯 | 3655ms
-  server: 136.148.83.70
-  port: 443
-  uuid: 00000000-0000-0001-0000-000000000000
-  tls: true
-  servername: aszbk-ru-78dc.my-fade.cloud
-- type: trojan
-  name: trojan-1927387875 | 3705ms
-  server: ja262.magiclampcloud.cn
-  port: 59443
-  password: 49aebff08369239f0adc7c8512c995ec
-  sni: ja262.magiclampcloud.cn
-  skip-cert-verify: true
-- type: trojan
-  name: trojan-1927387161 | 3741ms
-  server: ja262.magiclampcloud.cn
-  port: 59443
-  password: 6aa25635a999d62f49eba40879fbc915
-- type: trojan
-  name: trojan-1925754736 | 3832ms
-  server: tyy129.magiclampcloud.com
-  port: 59443
-  password: 5f9b5bfbf52c85aeddefdca3abc694b1
-  sni: tyy129.magiclampcloud.com
-  skip-cert-verify: true
-- type: trojan
-  name: trojan-1947502289 | 3957ms
-  server: updatess.sub-zrj.com
-  port: 222
-  password: 2f653ecd-c290-451e-a848-f8f525bc5a21
-  sni: data.sub-zrj.com
-  skip-cert-verify: true
 - type: vmess
-  name: '[OpenRay] 🇨🇳CN-69 | 4339ms'
+  name: CN 🇨🇳 | @Raydikalx | 89044A | 1679ms
   server: 120.48.133.162
   port: 10086
   uuid: c89f8a9e-a2c4-480e-b9af-debc1998b725
@@ -712,29 +20,46 @@ proxies:
   network: ws
   ws-opts:
     path: /
-- type: trojan
-  name: 🌰12@oneclickvpnkeys | 4439ms
-  server: 45.91.171.116
+- type: vless
+  name: RU 🇷🇺 | @Raydikalx | 9E313F | 2454ms
+  server: vps3.nemnogogo.com
   port: 443
-  password: 2ee85121-31de-4581-a492-eb00f606e392
-  sni: sto.freeguard.org
-- type: vmess
-  name: 🏁RELAY-172.64.145.93-0450 | 4747ms
+  uuid: 38308ff1-5aa9-494f-a25a-0f2870d56b3e
+  tls: true
+  network: grpc
+  grpc-opts:
+    grpc-service-name: mobile.api.Event
+- name: 🌐 其他 01 | 2737ms
+  type: vmess
   server: 172.64.145.93
   port: 443
   uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
   alterId: 0
   cipher: auto
-  tls: true
-  servername: guanwang.awsno.com
   network: ws
   ws-opts:
     path: /hls/cctv5phd.m3u8
     headers:
       Host: guanwang.awsno.com
+  tls: true
+  servername: guanwang.awsno.com
+- type: vless
+  name: 🌐 其他 06 | 2791ms
+  server: 196.196.149.81
+  port: 443
+  uuid: 4201786b-d99b-4147-a5f0-20d47acddb81
+  flow: xtls-rprx-vision
+  tls: true
+  servername: 7aa271t.es1.h1clayd.click
+  sni: 7aa271t.es1.h1clayd.click
+  skip-cert-verify: true
+  client-fingerprint: firefox
+  reality-opts:
+    public-key: ZSmetD4e9QG5CiXhniHg5HJB68L4kwbgAkJmMHtVwEE
+    short-id: 42426c882c5fcd41
 - type: vmess
-  name: 🏁RELAY-172.64.145.93-0447 | 4758ms
-  server: www.shopify.com
+  name: CA 🇨🇦 | @Raydikalx | C9F20E | 2838ms
+  server: guanwang.awsno.com
   port: 443
   uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
   alterId: 0
@@ -746,253 +71,183 @@ proxies:
     path: /hls/cctv5phd.m3u8
     headers:
       Host: guanwang.awsno.com
-- type: vmess
-  name: 🏁RELAY-188.114.99.137-0449 | 4923ms
-  server: 188.114.99.137
+- name: D🔴🇸🇬hos_dokng.com_731ac5ff | 2865ms
+  password: "8888"
+  port: 1080
+  server: 47.236.168.243
+  type: socks5
+  username: "8888"
+- name: 🇺🇸 美国 22 | 3079ms
+  type: vmess
+  server: 104.18.42.163
   port: 443
   uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
   alterId: 0
   cipher: auto
-  tls: true
-  servername: guanwang.awsno.com
   network: ws
   ws-opts:
     path: /hls/cctv5phd.m3u8
     headers:
       Host: guanwang.awsno.com
+  tls: true
+  servername: guanwang.awsno.com
+  client-fingerprint: chrome
+- type: vless
+  name: 🇹🇼 台湾 01 | 3082ms
+  server: free.fugui.lol
+  port: 47396
+  uuid: ead3595f-4020-4e76-a3ec-c248e1a2f2f7
+  flow: xtls-rprx-vision
+  tls: true
+  servername: swdist.apple.com
+  sni: swdist.apple.com
+  skip-cert-verify: true
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: IjWYbHNrZb3UCQxsTJyekEOA3tHq42L6Jw3O8MmLYVQ
+    short-id: fa514b83
+- name: A🟢🇲🇽res_dokng.com_1aa34d5e | 3182ms
+  password: 2j7CCZQb
+  port: 62000
+  server: 94.194.164.203
+  type: socks5
+  username: rVkkraqT
+- name: D🔴🇺🇸hos_dokng.com_a6052a43 | 3306ms
+  password: l1tlrdx52v
+  port: 62000
+  server: 66.253.2.69
+  type: socks5
+  username: u_rb1dba2
+- type: vless
+  name: 🇺🇸 美国 24 | 3311ms
+  server: 162.35.101.177
+  port: 443
+  uuid: cda0862a-0f87-4be9-8ed8-1d0c9e382839
+  tls: true
+  servername: 0592efg.us8.h1clayd.click
+  sni: 0592efg.us8.h1clayd.click
+  skip-cert-verify: true
+  client-fingerprint: edge
+  reality-opts:
+    public-key: cO3wYHISTeorXcM8ffaDCDdqZ-olBQL-GyZqb-W7rTk
+    short-id: bd8f712209a9c283
+  network: grpc
+  grpc-opts:
+    grpc-service-name: 99f2107b03f8
+- name: A🟢🇧🇷res[📺🎵]_dokng.com_936e7dd6 | 3695ms
+  password: 0mvrt5jb
+  port: 62000
+  server: 191.7.129.133
+  type: socks5
+  username: uwrgfkwg
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: C🟠🇪🇸hos[🤖💬🔮🎵]_dokng.com_7210a2a4 | 3727ms
+  network: tcp
+  packet-encoding: xudp
+  port: 443
+  reality-opts:
+    public-key: ZSmetD4e9QG5CiXhniHg5HJB68L4kwbgAkJmMHtVwEE
+    short-id: 42426c882c5fcd41
+  server: 196.199.122.2
+  servername: 7aa271t.es1.h1clayd.click
+  tls: true
+  type: vless
+  uuid: 4201786b-d99b-4147-a5f0-20d47acddb81
+  x-toolall-mihomo: true
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: C🟠🇪🇸hos[🤖🔮🎵🎮]_dokng.com_38171dc1 | 3847ms
+  network: tcp
+  packet-encoding: xudp
+  port: 443
+  reality-opts:
+    public-key: ZSmetD4e9QG5CiXhniHg5HJB68L4kwbgAkJmMHtVwEE
+    short-id: 42426c882c5fcd41
+  server: 196.196.149.80
+  servername: 7aa271t.es1.h1clayd.click
+  tls: true
+  type: vless
+  uuid: 4201786b-d99b-4147-a5f0-20d47acddb81
+  x-toolall-mihomo: true
+- type: vless
+  name: 🇷🇺 俄罗斯 02 | 3989ms
+  server: 136.148.83.70
+  port: 443
+  uuid: 00000000-0000-0001-0000-000000000000
+  tls: true
+  servername: aszbk-ru-78dc.my-fade.cloud
+  sni: aszbk-ru-78dc.my-fade.cloud
+  skip-cert-verify: true
+- client-fingerprint: firefox
+  name: U⚪🏳️ukn[💬🔮🎮✈️]_dokng.com_3447c6df | 4691ms
+  port: 443
+  reality-opts:
+    public-key: UoS8qZ74hP_ECcncCz55lzvlcVss3R7VA0WYZE0YQCY
+    short-id: ba2a3dce62b99092
+  server: 196.245.52.187
+  servername: 04535dt.us8.h1clayd.click
+  tls: true
+  type: vless
+  uuid: cda0862a-0f87-4be9-8ed8-1d0c9e382839
+  x-toolall-mihomo: true
+- client-fingerprint: firefox
+  name: A🟢🇳🇱res[💬🔮🎮✈️]_dokng.com_2e8886fe | 4780ms
+  network: tcp
+  packet-encoding: xudp
+  port: 443
+  reality-opts:
+    public-key: l-GzBDuNuhnjxoRlZqKvT7jAt_sbVAxhGFsAttO5kXs
+    short-id: 361d0dd59c70516f
+  server: 196.196.148.85
+  servername: 5d0319t.nl7.h1clayd.click
+  tls: true
+  type: vless
+  uuid: cda0862a-0f87-4be9-8ed8-1d0c9e382839
+  x-toolall-mihomo: true
 proxy-groups:
 - name: PROXY
   type: select
   proxies:
   - AUTO
   - DIRECT
-  - 🇮🇹_意大利 (7) | 2136ms
-  - 🇮🇹_意大利 (8) | 2230ms
-  - 🇯🇵_日本 (11) | 2275ms
-  - trojan-1938650863 | 2352ms
-  - trojan-1929356561 | 2355ms
-  - trojan-1943700986 | 2371ms
-  - trojan-1929357974 | 2377ms
-  - trojan-1929354458 | 2424ms
-  - trojan-1918521094 | 2448ms
-  - trojan-1945995987 | 2451ms
-  - trojan-1932659503 | 2474ms
-  - trojan-1934342940 | 2500ms
-  - trojan-1918521759 | 2501ms
-  - 🇮🇹_意大利 (10) | 2548ms
-  - trojan-1913371595 | 2557ms
-  - trojan-1916662007 | 2590ms
-  - trojan-1914941978 | 2596ms
-  - trojan-1918520394 | 2596ms
-  - trojan-1929114989 | 2596ms
-  - trojan-1927385122 | 2601ms
-  - trojan-1945995980 | 2602ms
-  - trojan-1927385115 | 2606ms
-  - trojan-1934995163 | 2617ms
-  - trojan-1934993074 | 2633ms
-  - trojan-1938651542 | 2635ms
-  - 🇮🇹_意大利 (9) | 2637ms
-  - 🇩🇪_德国 (39) | 2642ms
-  - trojan-1913368862 | 2660ms
-  - trojan-1945978586 | 2672ms
-  - trojan-1914945553 | 2673ms
-  - trojan-1927385818 | 2684ms
-  - 🇮🇹_意大利 (3) | 2690ms
-  - trojan-1923888982 | 2691ms
-  - trojan-1947502275 | 2705ms
-  - trojan-1914941297 | 2708ms
-  - trojan-1913370951 | 2717ms
-  - trojan-1945995993 | 2722ms
-  - 🇩🇪_德国 (18) | 2729ms
-  - trojan-1937252745 | 2730ms
-  - trojan-1913371622 | 2731ms
-  - trojan-1887119831 | 2737ms
-  - trojan-1934541793 | 2738ms
-  - trojan-1934992382 | 2748ms
-  - trojan-1943672353 | 2749ms
-  - trojan-1929352365 | 2750ms
-  - trojan-1914944114 | 2762ms
-  - trojan-1913371641 | 2772ms
-  - trojan-1927384427 | 2772ms
-  - 🇮🇹_意大利 (2) | 2779ms
-  - trojan-1913370931 | 2784ms
-  - 🇮🇹_意大利 | 2788ms
-  - trojan-1932660225 | 2789ms
-  - trojan-1929114984 | 2791ms
-  - trojan-1927383733 | 2795ms
-  - trojan-1898582852 | 2797ms
-  - trojan-1913371601 | 2807ms
-  - trojan-1898582841 | 2808ms
-  - 🇮🇹_意大利 (4) | 2812ms
-  - trojan-1916661319 | 2826ms
-  - trojan-1947502342 | 2831ms
-  - trojan-1934345102 | 2841ms
-  - trojan-1913368154 | 2843ms
-  - 🇮🇹_意大利 (5) | 2845ms
-  - trojan-1927385816 | 2852ms
-  - trojan-1898582833 | 2853ms
-  - trojan-1926549954 | 2859ms
-  - trojan-1900998121 | 2860ms
-  - 🇮🇹_意大利 (6) | 2875ms
-  - trojan-1898582873 | 2876ms
-  - trojan-1930538318 | 2876ms
-  - trojan-1930538308 | 2879ms
-  - trojan-1913368173 | 2883ms
-  - trojan-1914943415 | 2890ms
-  - trojan-1936763604 | 2896ms
-  - trojan-1926289810 | 2910ms
-  - trojan-1914946226 | 2934ms
-  - trojan-1887119826 | 2938ms
-  - trojan-1916657876 | 2960ms
-  - trojan-1935808991 | 2960ms
-  - 🇺🇸_美国 (79) | 2968ms
-  - trojan-1925930935 | 2995ms
-  - trojan-1914941272 | 3021ms
-  - trojan-1913368144 | 3025ms
-  - trojan-1913372988 | 3040ms
-  - trojan-1925751207 | 3050ms
-  - trojan-1913372302 | 3056ms
-  - trojan-1930538306 | 3067ms
-  - trojan-1898582858 | 3162ms
-  - trojan-1918525191 | 3185ms
-  - trojan-1898582865 | 3186ms
-  - trojan-1937252771 | 3196ms
-  - trojan-1918523145 | 3209ms
-  - trojan-1913368142 | 3215ms
-  - trojan-1930538333 | 3246ms
-  - trojan-1925754738 | 3300ms
-  - trojan-1918522453 | 3304ms
-  - trojan-1913371607 | 3347ms
-  - trojan-1914942687 | 3462ms
-  - trojan-1947305947 | 3498ms
-  - 🇺🇸US-15.204.248.103-5412 | 3525ms
-  - trojan-1913372283 | 3579ms
-  - خرید وی پی ان ارزان @NoraPingBot | 3589ms
-  - 🇷🇺_俄罗斯 | 3655ms
-  - trojan-1927387875 | 3705ms
-  - trojan-1927387161 | 3741ms
-  - trojan-1925754736 | 3832ms
-  - trojan-1947502289 | 3957ms
-  - '[OpenRay] 🇨🇳CN-69 | 4339ms'
-  - 🌰12@oneclickvpnkeys | 4439ms
-  - 🏁RELAY-172.64.145.93-0450 | 4747ms
-  - 🏁RELAY-172.64.145.93-0447 | 4758ms
-  - 🏁RELAY-188.114.99.137-0449 | 4923ms
+  - CN 🇨🇳 | @Raydikalx | 89044A | 1679ms
+  - RU 🇷🇺 | @Raydikalx | 9E313F | 2454ms
+  - 🌐 其他 01 | 2737ms
+  - 🌐 其他 06 | 2791ms
+  - CA 🇨🇦 | @Raydikalx | C9F20E | 2838ms
+  - D🔴🇸🇬hos_dokng.com_731ac5ff | 2865ms
+  - 🇺🇸 美国 22 | 3079ms
+  - 🇹🇼 台湾 01 | 3082ms
+  - A🟢🇲🇽res_dokng.com_1aa34d5e | 3182ms
+  - D🔴🇺🇸hos_dokng.com_a6052a43 | 3306ms
+  - 🇺🇸 美国 24 | 3311ms
+  - A🟢🇧🇷res[📺🎵]_dokng.com_936e7dd6 | 3695ms
+  - C🟠🇪🇸hos[🤖💬🔮🎵]_dokng.com_7210a2a4 | 3727ms
+  - C🟠🇪🇸hos[🤖🔮🎵🎮]_dokng.com_38171dc1 | 3847ms
+  - 🇷🇺 俄罗斯 02 | 3989ms
+  - U⚪🏳️ukn[💬🔮🎮✈️]_dokng.com_3447c6df | 4691ms
+  - A🟢🇳🇱res[💬🔮🎮✈️]_dokng.com_2e8886fe | 4780ms
 - name: AUTO
   type: url-test
   proxies:
-  - 🇮🇹_意大利 (7) | 2136ms
-  - 🇮🇹_意大利 (8) | 2230ms
-  - 🇯🇵_日本 (11) | 2275ms
-  - trojan-1938650863 | 2352ms
-  - trojan-1929356561 | 2355ms
-  - trojan-1943700986 | 2371ms
-  - trojan-1929357974 | 2377ms
-  - trojan-1929354458 | 2424ms
-  - trojan-1918521094 | 2448ms
-  - trojan-1945995987 | 2451ms
-  - trojan-1932659503 | 2474ms
-  - trojan-1934342940 | 2500ms
-  - trojan-1918521759 | 2501ms
-  - 🇮🇹_意大利 (10) | 2548ms
-  - trojan-1913371595 | 2557ms
-  - trojan-1916662007 | 2590ms
-  - trojan-1914941978 | 2596ms
-  - trojan-1918520394 | 2596ms
-  - trojan-1929114989 | 2596ms
-  - trojan-1927385122 | 2601ms
-  - trojan-1945995980 | 2602ms
-  - trojan-1927385115 | 2606ms
-  - trojan-1934995163 | 2617ms
-  - trojan-1934993074 | 2633ms
-  - trojan-1938651542 | 2635ms
-  - 🇮🇹_意大利 (9) | 2637ms
-  - 🇩🇪_德国 (39) | 2642ms
-  - trojan-1913368862 | 2660ms
-  - trojan-1945978586 | 2672ms
-  - trojan-1914945553 | 2673ms
-  - trojan-1927385818 | 2684ms
-  - 🇮🇹_意大利 (3) | 2690ms
-  - trojan-1923888982 | 2691ms
-  - trojan-1947502275 | 2705ms
-  - trojan-1914941297 | 2708ms
-  - trojan-1913370951 | 2717ms
-  - trojan-1945995993 | 2722ms
-  - 🇩🇪_德国 (18) | 2729ms
-  - trojan-1937252745 | 2730ms
-  - trojan-1913371622 | 2731ms
-  - trojan-1887119831 | 2737ms
-  - trojan-1934541793 | 2738ms
-  - trojan-1934992382 | 2748ms
-  - trojan-1943672353 | 2749ms
-  - trojan-1929352365 | 2750ms
-  - trojan-1914944114 | 2762ms
-  - trojan-1913371641 | 2772ms
-  - trojan-1927384427 | 2772ms
-  - 🇮🇹_意大利 (2) | 2779ms
-  - trojan-1913370931 | 2784ms
-  - 🇮🇹_意大利 | 2788ms
-  - trojan-1932660225 | 2789ms
-  - trojan-1929114984 | 2791ms
-  - trojan-1927383733 | 2795ms
-  - trojan-1898582852 | 2797ms
-  - trojan-1913371601 | 2807ms
-  - trojan-1898582841 | 2808ms
-  - 🇮🇹_意大利 (4) | 2812ms
-  - trojan-1916661319 | 2826ms
-  - trojan-1947502342 | 2831ms
-  - trojan-1934345102 | 2841ms
-  - trojan-1913368154 | 2843ms
-  - 🇮🇹_意大利 (5) | 2845ms
-  - trojan-1927385816 | 2852ms
-  - trojan-1898582833 | 2853ms
-  - trojan-1926549954 | 2859ms
-  - trojan-1900998121 | 2860ms
-  - 🇮🇹_意大利 (6) | 2875ms
-  - trojan-1898582873 | 2876ms
-  - trojan-1930538318 | 2876ms
-  - trojan-1930538308 | 2879ms
-  - trojan-1913368173 | 2883ms
-  - trojan-1914943415 | 2890ms
-  - trojan-1936763604 | 2896ms
-  - trojan-1926289810 | 2910ms
-  - trojan-1914946226 | 2934ms
-  - trojan-1887119826 | 2938ms
-  - trojan-1916657876 | 2960ms
-  - trojan-1935808991 | 2960ms
-  - 🇺🇸_美国 (79) | 2968ms
-  - trojan-1925930935 | 2995ms
-  - trojan-1914941272 | 3021ms
-  - trojan-1913368144 | 3025ms
-  - trojan-1913372988 | 3040ms
-  - trojan-1925751207 | 3050ms
-  - trojan-1913372302 | 3056ms
-  - trojan-1930538306 | 3067ms
-  - trojan-1898582858 | 3162ms
-  - trojan-1918525191 | 3185ms
-  - trojan-1898582865 | 3186ms
-  - trojan-1937252771 | 3196ms
-  - trojan-1918523145 | 3209ms
-  - trojan-1913368142 | 3215ms
-  - trojan-1930538333 | 3246ms
-  - trojan-1925754738 | 3300ms
-  - trojan-1918522453 | 3304ms
-  - trojan-1913371607 | 3347ms
-  - trojan-1914942687 | 3462ms
-  - trojan-1947305947 | 3498ms
-  - 🇺🇸US-15.204.248.103-5412 | 3525ms
-  - trojan-1913372283 | 3579ms
-  - خرید وی پی ان ارزان @NoraPingBot | 3589ms
-  - 🇷🇺_俄罗斯 | 3655ms
-  - trojan-1927387875 | 3705ms
-  - trojan-1927387161 | 3741ms
-  - trojan-1925754736 | 3832ms
-  - trojan-1947502289 | 3957ms
-  - '[OpenRay] 🇨🇳CN-69 | 4339ms'
-  - 🌰12@oneclickvpnkeys | 4439ms
-  - 🏁RELAY-172.64.145.93-0450 | 4747ms
-  - 🏁RELAY-172.64.145.93-0447 | 4758ms
-  - 🏁RELAY-188.114.99.137-0449 | 4923ms
+  - CN 🇨🇳 | @Raydikalx | 89044A | 1679ms
+  - RU 🇷🇺 | @Raydikalx | 9E313F | 2454ms
+  - 🌐 其他 01 | 2737ms
+  - 🌐 其他 06 | 2791ms
+  - CA 🇨🇦 | @Raydikalx | C9F20E | 2838ms
+  - D🔴🇸🇬hos_dokng.com_731ac5ff | 2865ms
+  - 🇺🇸 美国 22 | 3079ms
+  - 🇹🇼 台湾 01 | 3082ms
+  - A🟢🇲🇽res_dokng.com_1aa34d5e | 3182ms
+  - D🔴🇺🇸hos_dokng.com_a6052a43 | 3306ms
+  - 🇺🇸 美国 24 | 3311ms
+  - A🟢🇧🇷res[📺🎵]_dokng.com_936e7dd6 | 3695ms
+  - C🟠🇪🇸hos[🤖💬🔮🎵]_dokng.com_7210a2a4 | 3727ms
+  - C🟠🇪🇸hos[🤖🔮🎵🎮]_dokng.com_38171dc1 | 3847ms
+  - 🇷🇺 俄罗斯 02 | 3989ms
+  - U⚪🏳️ukn[💬🔮🎮✈️]_dokng.com_3447c6df | 4691ms
+  - A🟢🇳🇱res[💬🔮🎮✈️]_dokng.com_2e8886fe | 4780ms
   url: http://www.gstatic.com/generate_204
   interval: 300
   tolerance: 50
