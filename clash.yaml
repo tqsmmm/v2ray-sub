@@ -10,116 +10,325 @@ dns:
   - 8.8.8.8
   - 1.1.1.1
 proxies:
-- type: vmess
-  name: CN 🇨🇳 | @Raydikalx | 89044A | 1679ms
-  server: 120.48.133.162
-  port: 10086
-  uuid: c89f8a9e-a2c4-480e-b9af-debc1998b725
-  alterId: 0
-  cipher: auto
+- type: ss
+  name: 🇮🇹 意大利 08 | 1625ms
+  server: 202.50.253.45
+  port: 19999
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  cipher: aes-256-gcm
+  tls: false
+  skip-cert-verify: true
+- type: ss
+  name: 🇮🇹 意大利 07 | 1879ms
+  server: 202.50.253.99
+  port: 19999
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  cipher: aes-256-gcm
+  tls: false
+  skip-cert-verify: true
+- type: ss
+  name: 🇮🇹 意大利 11 | 1913ms
+  server: 202.50.253.63
+  port: 19999
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  cipher: aes-256-gcm
+  tls: false
+  skip-cert-verify: true
+- type: ss
+  name: 🇩🇪[www.v2nodes.com] ss-DE-1624... | 1953ms
+  server: 47.254.167.157
+  port: 443
+  cipher: 2022-blake3-chacha20-poly1305
+  password: 8yO3ANWefuuGs1lRKXECQA1FEhxlWFV2ppQMcBaZo5Y=
+- type: ss
+  name: 🇮🇹 意大利 09 | 2130ms
+  server: 202.50.253.27
+  port: 19999
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  cipher: aes-256-gcm
+  tls: false
+  skip-cert-verify: true
+- type: vless
+  name: '🇷🇺 俄罗斯 | RUS #1 | 2349ms'
+  server: 194.26.229.207
+  port: 4100
+  uuid: 026ecbd6-2838-40f6-b530-d2c303c4f629
   network: ws
   ws-opts:
-    path: /
+    path: /v1
+    headers:
+      Host: live.ok.ru
+- type: ss
+  name: 🇮🇹 意大利 06 | 2406ms
+  server: 202.50.253.81
+  port: 19999
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  cipher: aes-256-gcm
+  tls: false
+  skip-cert-verify: true
 - type: vless
-  name: RU 🇷🇺 | @Raydikalx | 9E313F | 2454ms
-  server: vps3.nemnogogo.com
+  name: '🇷🇺 俄罗斯 | RUS #2 | 2539ms'
+  server: 194.26.229.207
+  port: 2200
+  uuid: 026ecbd6-2838-40f6-b530-d2c303c4f629
+  network: ws
+  ws-opts:
+    path: /v1
+    headers:
+      Host: rzd.ru
+- type: vless
+  name: '🇷🇺 俄罗斯 | RUS #4 | 2540ms'
+  server: 194.26.229.207
+  port: 2200
+  uuid: f2d2907c-1d74-43eb-8fd2-fc55dfd92427
+  network: ws
+  ws-opts:
+    path: /v1
+- name: 🇮🇩ID_4|522KB/s|R002-260618 [98ad7829bea3] | 2621ms
+  password: RRWtX6XP
+  port: 62000
+  server: 203.84.138.59
+  sub_tag: R002-260618
+  type: socks5
+  username: 9tcjLp2W
+- name: 🇹🇭TH_14|548KB/s|K001-260618 [6a15e2bcb6c4] | 2697ms
+  password: VAwyJQX0iKMJiyCw5UVK9wGH
+  port: 42000
+  server: 103.14.164.202
+  skip-cert-verify: true
+  sub_tag: K001-260618
+  type: socks5
+  username: route164JIa2CBPxfy
+- name: 🇹🇭TH_8|432KB/s|R002-260618 [97523c93a778] | 2814ms
+  password: zdnivBaI
+  port: 62000
+  server: 109.66.136.42
+  sub_tag: R002-260618
+  type: socks5
+  username: r3ZzP8WW
+- name: 🇷🇺 俄罗斯 02 | 2822ms
+  type: vless
+  server: 201.24.116.192
   port: 443
   uuid: 38308ff1-5aa9-494f-a25a-0f2870d56b3e
   tls: true
+  servername: vps3.nemnogogo.com
+  client-fingerprint: firefox
   network: grpc
   grpc-opts:
     grpc-service-name: mobile.api.Event
-- name: 🌐 其他 01 | 2737ms
-  type: vmess
-  server: 172.64.145.93
-  port: 443
-  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
-  alterId: 0
-  cipher: auto
-  network: ws
-  ws-opts:
-    path: /hls/cctv5phd.m3u8
-    headers:
-      Host: guanwang.awsno.com
-  tls: true
-  servername: guanwang.awsno.com
-- type: vless
-  name: 🌐 其他 06 | 2791ms
-  server: 196.196.149.81
-  port: 443
-  uuid: 4201786b-d99b-4147-a5f0-20d47acddb81
-  flow: xtls-rprx-vision
-  tls: true
-  servername: 7aa271t.es1.h1clayd.click
-  sni: 7aa271t.es1.h1clayd.click
-  skip-cert-verify: true
-  client-fingerprint: firefox
-  reality-opts:
-    public-key: ZSmetD4e9QG5CiXhniHg5HJB68L4kwbgAkJmMHtVwEE
-    short-id: 42426c882c5fcd41
-- type: vmess
-  name: CA 🇨🇦 | @Raydikalx | C9F20E | 2838ms
-  server: guanwang.awsno.com
-  port: 443
-  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
-  alterId: 0
-  cipher: auto
-  tls: true
-  servername: guanwang.awsno.com
-  network: ws
-  ws-opts:
-    path: /hls/cctv5phd.m3u8
-    headers:
-      Host: guanwang.awsno.com
-- name: D🔴🇸🇬hos_dokng.com_731ac5ff | 2865ms
-  password: "8888"
-  port: 1080
-  server: 47.236.168.243
+- name: 🇹🇭TH_11|578KB/s|R002-260618 [6e854ea98e74] | 2889ms
+  password: VAwyJQX0iKMJiyCw5UVK9wGH
+  port: 42000
+  server: 103.14.164.30
+  sub_tag: R002-260618
   type: socks5
-  username: "8888"
-- name: 🇺🇸 美国 22 | 3079ms
-  type: vmess
-  server: 104.18.42.163
+  username: route164JIa2CBPxfy
+- name: 🇹🇭TH_5|468KB/s|R002-260618 [849ebc43c563] | 2901ms
+  password: mpbK00Pl
+  port: 42000
+  server: 192.204.15.135
+  sub_tag: R002-260618
+  type: socks5
+  username: X3s3JteD
+- name: 🇹🇭TH_18|595KB/s|R002-260618 [c4777f941380] | 2924ms
+  password: KT5hiU8o
+  port: 42000
+  server: 104.234.70.136
+  sub_tag: R002-260618
+  type: socks5
+  username: rnt2L4XO
+- name: 🇳🇱 荷兰 05 | 3061ms
+  type: vless
+  server: 98.98.132.110
   port: 443
-  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
-  alterId: 0
-  cipher: auto
-  network: ws
-  ws-opts:
-    path: /hls/cctv5phd.m3u8
-    headers:
-      Host: guanwang.awsno.com
+  uuid: e2f43a75-e683-4d09-96e8-3ad1f2e57100
   tls: true
-  servername: guanwang.awsno.com
+  servername: a1116.afl7t8f.com
   client-fingerprint: chrome
-- type: vless
-  name: 🇹🇼 台湾 01 | 3082ms
-  server: free.fugui.lol
-  port: 47396
-  uuid: ead3595f-4020-4e76-a3ec-c248e1a2f2f7
-  flow: xtls-rprx-vision
-  tls: true
-  servername: swdist.apple.com
-  sni: swdist.apple.com
+  alpn:
+  - h2
+  network: grpc
+  grpc-opts:
+    grpc-service-name: 2e7d5cf6a7e50c564bfddf62c87e02e1
+- name: 🇹🇭TH_19|580KB/s|R002-260618 [331e4c5a2225] | 3062ms
+  password: zdnivBaI
+  port: 62000
+  server: 109.66.136.242
+  sub_tag: R002-260618
+  type: socks5
+  username: r3ZzP8WW
+- name: 🇹🇭TH_17|463KB/s|R002-260618 [dfd6508a04d8] | 3091ms
+  password: mpbK00Pl
+  port: 42000
+  server: 192.204.15.138
+  sub_tag: R002-260618
+  type: socks5
+  username: X3s3JteD
+- name: 🇹🇭TH_21|496KB/s|R002-260618 [b78c1c59295f] | 3189ms
+  password: zdnivBaI
+  port: 62000
+  server: 109.66.136.234
+  sub_tag: R002-260618
+  type: socks5
+  username: r3ZzP8WW
+- name: 🇹🇭TH_6|485KB/s|R002-260618 [464b3437191d] | 3191ms
+  password: mpbK00Pl
+  port: 42000
+  server: 192.204.15.192
+  sub_tag: R002-260618
+  type: socks5
+  username: X3s3JteD
+- name: 🇮🇩ID_6|646KB/s|R002-260618 [6f5e9265b2e4] | 3218ms
+  password: APJ7RmY9
+  port: 62000
+  server: 202.155.99.32
+  sub_tag: R002-260618
+  type: socks5
+  username: gebHTLF6
+- name: 🇹🇭TH_10|589KB/s|R002-260618 [0e1f17200b32] | 3274ms
+  password: 1pB7HV6u
+  port: 42000
+  server: 151.246.109.158
+  sub_tag: R002-260618
+  type: socks5
+  username: AJ3d9gJw
+- name: 🇹🇭TH_7|485KB/s|R002-260618 [f10b406ce373] | 3298ms
+  password: zdnivBaI
+  port: 62000
+  server: 109.66.136.194
+  sub_tag: R002-260618
+  type: socks5
+  username: r3ZzP8WW
+- type: ss
+  name: 🇩🇪DE德国丨yoyapai.com\r | 3321ms
+  server: 47.254.128.109
+  port: 443
+  cipher: 2022-blake3-chacha20-poly1305
+  password: 8yO3ANWefuuGs1lRKXECQA1FEhxlWFV2ppQMcBaZo5Y=
+- name: 🇹🇭TH_16|587KB/s|R002-260618 [adb3477e8887] | 3325ms
+  password: ao3W5ZML
+  port: 42000
+  server: 168.222.8.66
+  sub_tag: R002-260618
+  type: socks5
+  username: JPjarpW3
+- name: 🇻🇳VN_2|238KB/s|R002-260618 [6d6a890a0e15] | 3376ms
+  password: jHsK2gqs
+  port: 62000
+  server: 103.184.113.236
+  sub_tag: R002-260618
+  type: socks5
+  username: qT46DZLv
+- name: 🇲🇽MX_6|723KB/s|R002-260618 [d602f1d4ef03] | 3393ms
+  password: VvUAFi2E
+  port: 62000
+  server: 72.57.228.30
+  sub_tag: R002-260618
+  type: socks5
+  username: UBXich0K
+- type: trojan
+  name: 🇺🇸US_417|945KB/s|A001-260618 [06fdde827ad4] | 3419ms
+  server: 66.163.114.166
+  port: 443
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  sni: blog.findconnectwithemployersandbuildprofessionalnetwork.com
   skip-cert-verify: true
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: IjWYbHNrZb3UCQxsTJyekEOA3tHq42L6Jw3O8MmLYVQ
-    short-id: fa514b83
-- name: A🟢🇲🇽res_dokng.com_1aa34d5e | 3182ms
+- name: 🇲🇽MX_8|731KB/s|K001-260618 [2b33d64efd58] | 3428ms
+  password: VvUAFi2E
+  port: 62000
+  server: 72.57.228.87
+  skip-cert-verify: true
+  sub_tag: K001-260618
+  type: socks5
+  username: UBXich0K
+- name: 🇺🇸US_632|460KB/s|P002-260618 [c0b3b312046c] | 3434ms
+  password: None
+  port: 38182
+  server: 69.55.49.177
+  sub_tag: P002-260618
+  type: socks5
+- name: 🇹🇭TH_20|566KB/s|R002-260618 [76d92b58a2fa] | 3450ms
+  password: ao3W5ZML
+  port: 42000
+  server: 168.222.8.4
+  sub_tag: R002-260618
+  type: socks5
+  username: JPjarpW3
+- name: 🇹🇭TH_9|417KB/s|R002-260618 [875ea96a51cf] | 3452ms
+  password: Ks4Iab43
+  port: 42000
+  server: 82.47.152.151
+  sub_tag: R002-260618
+  type: socks5
+  username: userLjVB
+- type: ss
+  name: 🇮🇹 意大利 04 | 3517ms
+  server: 202.50.253.18
+  port: 19999
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  cipher: aes-256-gcm
+  tls: false
+  skip-cert-verify: true
+- name: 🇲🇽MX_2|266KB/s|P002-260618 [a4fc8a9a0c8d] | 3520ms
+  password: sZnD8GTz
+  port: 42000
+  server: 144.225.47.158
+  skip-cert-verify: true
+  sub_tag: P002-260618
+  type: socks5
+  username: DJy1T0dt
+- name: 🇮🇹 意大利 05 | 3545ms
+  type: ss
+  server: 202.50.253.90
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: 🇲🇽MX_7|607KB/s|R002-260618 [7a1e93a0ef85] | 3570ms
   password: 2j7CCZQb
   port: 62000
   server: 94.194.164.203
+  sub_tag: R002-260618
   type: socks5
   username: rVkkraqT
-- name: D🔴🇺🇸hos_dokng.com_a6052a43 | 3306ms
-  password: l1tlrdx52v
+- name: 🇸🇬SG_47|575KB/s|R002-260618 [670066b8f911] | 3618ms
+  password: c0a34a
   port: 62000
-  server: 66.253.2.69
+  server: 66.80.2.252
+  sub_tag: R002-260618
   type: socks5
-  username: u_rb1dba2
+  username: usereb7d
+- name: 🇻🇳VN_3|447KB/s|R002-260618 [1ed94f8d82c9] | 3628ms
+  password: jHsK2gqs
+  port: 62000
+  server: 103.184.113.190
+  sub_tag: R002-260618
+  type: socks5
+  username: qT46DZLv
+- name: 🇮🇩ID_5|645KB/s|S001-260618 [60c87f168b5f] | 3644ms
+  password: APJ7RmY9
+  port: 62000
+  server: 202.155.99.212
+  skip-cert-verify: true
+  sub_tag: S001-260618
+  type: socks5
+  username: gebHTLF6
+- name: 🇹🇭TH_3|558KB/s|R002-260618 [08846cc7f1d1] | 3690ms
+  password: fAgE2jqK
+  port: 42000
+  server: 151.246.108.69
+  sub_tag: R002-260618
+  type: socks5
+  username: h87527jJ
+- name: 🇹🇭TH_2|587KB/s|R002-260618 [464d3086d022] | 3742ms
+  password: ao3W5ZML
+  port: 42000
+  server: 168.222.8.119
+  sub_tag: R002-260618
+  type: socks5
+  username: JPjarpW3
 - type: vless
-  name: 🇺🇸 美国 24 | 3311ms
+  name: 🇺🇸 美国 07 | 3757ms
   server: 162.35.101.177
   port: 443
   uuid: cda0862a-0f87-4be9-8ed8-1d0c9e382839
@@ -134,120 +343,315 @@ proxies:
   network: grpc
   grpc-opts:
     grpc-service-name: 99f2107b03f8
-- name: A🟢🇧🇷res[📺🎵]_dokng.com_936e7dd6 | 3695ms
+- name: 🇹🇭TH_1|572KB/s|R002-260618 [ad775af2aefa] | 3805ms
+  password: YlRoWvE0dL_cUqS94wPeKnA4
+  port: 62000
+  server: 87.84.49.140
+  sub_tag: R002-260618
+  type: socks5
+  username: ks878449260d
+- name: 🇧🇷BR_10|284KB/s|R002-260618 [0a59d07494f6] | 3872ms
   password: 0mvrt5jb
   port: 62000
   server: 191.7.129.133
+  sub_tag: R002-260618
   type: socks5
   username: uwrgfkwg
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: C🟠🇪🇸hos[🤖💬🔮🎵]_dokng.com_7210a2a4 | 3727ms
-  network: tcp
-  packet-encoding: xudp
+- name: 🇹🇭TH_13|566KB/s|R002-260618 [4d7f4c48ed29] | 3935ms
+  password: YlRoWvE0dL_cUqS94wPeKnA4
+  port: 62000
+  server: 87.84.49.245
+  sub_tag: R002-260618
+  type: socks5
+  username: ks878449260d
+- type: vmess
+  name: CA 🇨🇦 | @Raydikalx | 275119 | 3937ms
+  server: guanwang.awsno.com
   port: 443
-  reality-opts:
-    public-key: ZSmetD4e9QG5CiXhniHg5HJB68L4kwbgAkJmMHtVwEE
-    short-id: 42426c882c5fcd41
-  server: 196.199.122.2
-  servername: 7aa271t.es1.h1clayd.click
+  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
+  alterId: 0
+  cipher: auto
   tls: true
-  type: vless
-  uuid: 4201786b-d99b-4147-a5f0-20d47acddb81
-  x-toolall-mihomo: true
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: C🟠🇪🇸hos[🤖🔮🎵🎮]_dokng.com_38171dc1 | 3847ms
-  network: tcp
-  packet-encoding: xudp
-  port: 443
-  reality-opts:
-    public-key: ZSmetD4e9QG5CiXhniHg5HJB68L4kwbgAkJmMHtVwEE
-    short-id: 42426c882c5fcd41
-  server: 196.196.149.80
-  servername: 7aa271t.es1.h1clayd.click
-  tls: true
-  type: vless
-  uuid: 4201786b-d99b-4147-a5f0-20d47acddb81
-  x-toolall-mihomo: true
-- type: vless
-  name: 🇷🇺 俄罗斯 02 | 3989ms
-  server: 136.148.83.70
-  port: 443
-  uuid: 00000000-0000-0001-0000-000000000000
-  tls: true
-  servername: aszbk-ru-78dc.my-fade.cloud
-  sni: aszbk-ru-78dc.my-fade.cloud
+  network: ws
+  ws-opts:
+    path: /hls/cctv5phd.m3u8
+    headers:
+      Host: guanwang.awsno.com
+- name: 🇹🇭TH_15|534KB/s|S001-260618 [d591c4191f8f] | 4015ms
+  password: YlRoWvE0dL_cUqS94wPeKnA4
+  port: 62000
+  server: 87.84.49.206
   skip-cert-verify: true
-- client-fingerprint: firefox
-  name: U⚪🏳️ukn[💬🔮🎮✈️]_dokng.com_3447c6df | 4691ms
+  sub_tag: S001-260618
+  type: socks5
+  username: ks878449260d
+- name: 🇹🇭TH_12|600KB/s|R002-260618 [744dddb58be2] | 4134ms
+  password: KT5hiU8o
+  port: 42000
+  server: 104.234.70.82
+  sub_tag: R002-260618
+  type: socks5
+  username: rnt2L4XO
+- name: 🇯🇵JP_16|451KB/s|P002-260618 [e5efa8f7a2fb] | 4138ms
+  password: EGJDy5Kg
+  port: 42000
+  server: 103.248.150.50
+  skip-cert-verify: true
+  sub_tag: P002-260618
+  type: socks5
+  username: paZFN3JA
+- name: 🇫🇷FR_58|127KB/s|K001-260618 [44e893cb0aad] | 4327ms
+  password: Zn5mR7vA
+  port: 42000
+  server: 144.56.22.78
+  skip-cert-verify: true
+  sub_tag: K001-260618
+  type: socks5
+  username: L8wP3kQx
+- name: 🇲🇽MX_1|572KB/s|R002-260618 [70e55aa5a678] | 4341ms
+  password: lcFa8dTH
+  port: 62000
+  server: 94.194.165.96
+  sub_tag: R002-260618
+  type: socks5
+  username: QyVdo5ks
+- name: 🇲🇽MX_5|122KB/s|R002-260618 [4414f12f0fa0] | 4358ms
+  password: sZnD8GTz
+  port: 42000
+  server: 144.225.47.68
+  sub_tag: R002-260618
+  type: socks5
+  username: DJy1T0dt
+- name: 🇲🇽MX_9|270KB/s|R002-260618 [f364ec713648] | 4366ms
+  password: KsPAxZGn
+  port: 42000
+  server: 94.194.166.52
+  sub_tag: R002-260618
+  type: socks5
+  username: userLRgK
+- name: 🇺🇸US_99|1.2MB/s|R002-260618 [00dad65c0bb7] | 4372ms
+  password: 75bPoRcB
+  port: 62000
+  server: 216.132.114.27
+  sub_tag: R002-260618
+  type: socks5
+  username: JzufiJ62
+- type: vless
+  name: 🌐 其他 01 | 4385ms
+  server: 196.245.52.183
   port: 443
-  reality-opts:
-    public-key: UoS8qZ74hP_ECcncCz55lzvlcVss3R7VA0WYZE0YQCY
-    short-id: ba2a3dce62b99092
-  server: 196.245.52.187
-  servername: 04535dt.us8.h1clayd.click
-  tls: true
-  type: vless
   uuid: cda0862a-0f87-4be9-8ed8-1d0c9e382839
-  x-toolall-mihomo: true
-- client-fingerprint: firefox
-  name: A🟢🇳🇱res[💬🔮🎮✈️]_dokng.com_2e8886fe | 4780ms
-  network: tcp
-  packet-encoding: xudp
-  port: 443
-  reality-opts:
-    public-key: l-GzBDuNuhnjxoRlZqKvT7jAt_sbVAxhGFsAttO5kXs
-    short-id: 361d0dd59c70516f
-  server: 196.196.148.85
-  servername: 5d0319t.nl7.h1clayd.click
   tls: true
+  servername: 15b171g.nl7.h1clayd.click
+  sni: 15b171g.nl7.h1clayd.click
+  skip-cert-verify: true
+  client-fingerprint: firefox
+  reality-opts:
+    public-key: zbz--PMjcIC4Ggr3j-ibDf0fzXRTj0lM_HzjPJyMkVE
+    short-id: 50a749f0eccb628c
+  network: grpc
+  grpc-opts:
+    grpc-service-name: 5b79e8a94241
+- name: 🇺🇸US_100|325KB/s|R002-260618 [1951de2415e0] | 4462ms
+  password: kingstar123++
+  port: 62000
+  server: 23.230.200.250
+  sub_tag: R002-260618
+  type: socks5
+  username: kingstar123
+- name: 🇲🇽MX_10|447KB/s|S001-260618 [8be23114a447] | 4465ms
+  password: lcFa8dTH
+  port: 62000
+  server: 94.194.165.131
+  skip-cert-verify: true
+  sub_tag: S001-260618
+  type: socks5
+  username: QyVdo5ks
+- name: 🇸🇬 新加坡 06 | 4468ms
   type: vless
-  uuid: cda0862a-0f87-4be9-8ed8-1d0c9e382839
-  x-toolall-mihomo: true
+  server: 172.64.154.113
+  port: 8443
+  uuid: 53bbdad4-2f4e-45db-8df4-fa491a6a7227
+  tls: true
+  servername: freeceshi6.frii.site
+  network: ws
+  ws-opts:
+    path: /proxyip=ProxyIP.JP.CMLiussss.netfp=chrome
+    headers:
+      Host: freeceshi6.frii.site
+- name: 🇲🇽MX_4|300KB/s|R002-260618 [b7d81b4b7ca2] | 4612ms
+  password: DJy1T0dt
+  port: 42000
+  server: 144.225.47.8
+  sub_tag: R002-260618
+  type: socks5
+  username: Tek2x6av
+- name: 🇹🇭TH_4|569KB/s|R002-260618 [24a27d0b1350] | 4683ms
+  password: 1pB7HV6u
+  port: 42000
+  server: 151.246.109.86
+  sub_tag: R002-260618
+  type: socks5
+  username: AJ3d9gJw
+- name: 🇺🇸US_641|665KB/s|R002-260618 [82bc43fb8ccb] | 4729ms
+  password: l1tlrdx52v
+  port: 62000
+  server: 66.253.2.69
+  sub_tag: R002-260618
+  type: socks5
+  username: u_rb1dba2
+- name: 🇸🇬SG_33|80KB/s|R002-260618 [e2924167f620] | 4772ms
+  password: "8888"
+  port: 1080
+  server: 47.236.168.243
+  skip-cert-verify: true
+  sub_tag: R002-260618
+  type: socks5
+  username: "8888"
+- name: 🇺🇸US_389|232KB/s [0205d799a499] | 4988ms
+  password: test123
+  port: 1080
+  server: 104.168.249.36
+  skip-cert-verify: true
+  type: socks5
+  username: test123
 proxy-groups:
 - name: PROXY
   type: select
   proxies:
   - AUTO
   - DIRECT
-  - CN 🇨🇳 | @Raydikalx | 89044A | 1679ms
-  - RU 🇷🇺 | @Raydikalx | 9E313F | 2454ms
-  - 🌐 其他 01 | 2737ms
-  - 🌐 其他 06 | 2791ms
-  - CA 🇨🇦 | @Raydikalx | C9F20E | 2838ms
-  - D🔴🇸🇬hos_dokng.com_731ac5ff | 2865ms
-  - 🇺🇸 美国 22 | 3079ms
-  - 🇹🇼 台湾 01 | 3082ms
-  - A🟢🇲🇽res_dokng.com_1aa34d5e | 3182ms
-  - D🔴🇺🇸hos_dokng.com_a6052a43 | 3306ms
-  - 🇺🇸 美国 24 | 3311ms
-  - A🟢🇧🇷res[📺🎵]_dokng.com_936e7dd6 | 3695ms
-  - C🟠🇪🇸hos[🤖💬🔮🎵]_dokng.com_7210a2a4 | 3727ms
-  - C🟠🇪🇸hos[🤖🔮🎵🎮]_dokng.com_38171dc1 | 3847ms
-  - 🇷🇺 俄罗斯 02 | 3989ms
-  - U⚪🏳️ukn[💬🔮🎮✈️]_dokng.com_3447c6df | 4691ms
-  - A🟢🇳🇱res[💬🔮🎮✈️]_dokng.com_2e8886fe | 4780ms
+  - 🇮🇹 意大利 08 | 1625ms
+  - 🇮🇹 意大利 07 | 1879ms
+  - 🇮🇹 意大利 11 | 1913ms
+  - 🇩🇪[www.v2nodes.com] ss-DE-1624... | 1953ms
+  - 🇮🇹 意大利 09 | 2130ms
+  - '🇷🇺 俄罗斯 | RUS #1 | 2349ms'
+  - 🇮🇹 意大利 06 | 2406ms
+  - '🇷🇺 俄罗斯 | RUS #2 | 2539ms'
+  - '🇷🇺 俄罗斯 | RUS #4 | 2540ms'
+  - 🇮🇩ID_4|522KB/s|R002-260618 [98ad7829bea3] | 2621ms
+  - 🇹🇭TH_14|548KB/s|K001-260618 [6a15e2bcb6c4] | 2697ms
+  - 🇹🇭TH_8|432KB/s|R002-260618 [97523c93a778] | 2814ms
+  - 🇷🇺 俄罗斯 02 | 2822ms
+  - 🇹🇭TH_11|578KB/s|R002-260618 [6e854ea98e74] | 2889ms
+  - 🇹🇭TH_5|468KB/s|R002-260618 [849ebc43c563] | 2901ms
+  - 🇹🇭TH_18|595KB/s|R002-260618 [c4777f941380] | 2924ms
+  - 🇳🇱 荷兰 05 | 3061ms
+  - 🇹🇭TH_19|580KB/s|R002-260618 [331e4c5a2225] | 3062ms
+  - 🇹🇭TH_17|463KB/s|R002-260618 [dfd6508a04d8] | 3091ms
+  - 🇹🇭TH_21|496KB/s|R002-260618 [b78c1c59295f] | 3189ms
+  - 🇹🇭TH_6|485KB/s|R002-260618 [464b3437191d] | 3191ms
+  - 🇮🇩ID_6|646KB/s|R002-260618 [6f5e9265b2e4] | 3218ms
+  - 🇹🇭TH_10|589KB/s|R002-260618 [0e1f17200b32] | 3274ms
+  - 🇹🇭TH_7|485KB/s|R002-260618 [f10b406ce373] | 3298ms
+  - 🇩🇪DE德国丨yoyapai.com\r | 3321ms
+  - 🇹🇭TH_16|587KB/s|R002-260618 [adb3477e8887] | 3325ms
+  - 🇻🇳VN_2|238KB/s|R002-260618 [6d6a890a0e15] | 3376ms
+  - 🇲🇽MX_6|723KB/s|R002-260618 [d602f1d4ef03] | 3393ms
+  - 🇺🇸US_417|945KB/s|A001-260618 [06fdde827ad4] | 3419ms
+  - 🇲🇽MX_8|731KB/s|K001-260618 [2b33d64efd58] | 3428ms
+  - 🇺🇸US_632|460KB/s|P002-260618 [c0b3b312046c] | 3434ms
+  - 🇹🇭TH_20|566KB/s|R002-260618 [76d92b58a2fa] | 3450ms
+  - 🇹🇭TH_9|417KB/s|R002-260618 [875ea96a51cf] | 3452ms
+  - 🇮🇹 意大利 04 | 3517ms
+  - 🇲🇽MX_2|266KB/s|P002-260618 [a4fc8a9a0c8d] | 3520ms
+  - 🇮🇹 意大利 05 | 3545ms
+  - 🇲🇽MX_7|607KB/s|R002-260618 [7a1e93a0ef85] | 3570ms
+  - 🇸🇬SG_47|575KB/s|R002-260618 [670066b8f911] | 3618ms
+  - 🇻🇳VN_3|447KB/s|R002-260618 [1ed94f8d82c9] | 3628ms
+  - 🇮🇩ID_5|645KB/s|S001-260618 [60c87f168b5f] | 3644ms
+  - 🇹🇭TH_3|558KB/s|R002-260618 [08846cc7f1d1] | 3690ms
+  - 🇹🇭TH_2|587KB/s|R002-260618 [464d3086d022] | 3742ms
+  - 🇺🇸 美国 07 | 3757ms
+  - 🇹🇭TH_1|572KB/s|R002-260618 [ad775af2aefa] | 3805ms
+  - 🇧🇷BR_10|284KB/s|R002-260618 [0a59d07494f6] | 3872ms
+  - 🇹🇭TH_13|566KB/s|R002-260618 [4d7f4c48ed29] | 3935ms
+  - CA 🇨🇦 | @Raydikalx | 275119 | 3937ms
+  - 🇹🇭TH_15|534KB/s|S001-260618 [d591c4191f8f] | 4015ms
+  - 🇹🇭TH_12|600KB/s|R002-260618 [744dddb58be2] | 4134ms
+  - 🇯🇵JP_16|451KB/s|P002-260618 [e5efa8f7a2fb] | 4138ms
+  - 🇫🇷FR_58|127KB/s|K001-260618 [44e893cb0aad] | 4327ms
+  - 🇲🇽MX_1|572KB/s|R002-260618 [70e55aa5a678] | 4341ms
+  - 🇲🇽MX_5|122KB/s|R002-260618 [4414f12f0fa0] | 4358ms
+  - 🇲🇽MX_9|270KB/s|R002-260618 [f364ec713648] | 4366ms
+  - 🇺🇸US_99|1.2MB/s|R002-260618 [00dad65c0bb7] | 4372ms
+  - 🌐 其他 01 | 4385ms
+  - 🇺🇸US_100|325KB/s|R002-260618 [1951de2415e0] | 4462ms
+  - 🇲🇽MX_10|447KB/s|S001-260618 [8be23114a447] | 4465ms
+  - 🇸🇬 新加坡 06 | 4468ms
+  - 🇲🇽MX_4|300KB/s|R002-260618 [b7d81b4b7ca2] | 4612ms
+  - 🇹🇭TH_4|569KB/s|R002-260618 [24a27d0b1350] | 4683ms
+  - 🇺🇸US_641|665KB/s|R002-260618 [82bc43fb8ccb] | 4729ms
+  - 🇸🇬SG_33|80KB/s|R002-260618 [e2924167f620] | 4772ms
+  - 🇺🇸US_389|232KB/s [0205d799a499] | 4988ms
 - name: AUTO
   type: url-test
   proxies:
-  - CN 🇨🇳 | @Raydikalx | 89044A | 1679ms
-  - RU 🇷🇺 | @Raydikalx | 9E313F | 2454ms
-  - 🌐 其他 01 | 2737ms
-  - 🌐 其他 06 | 2791ms
-  - CA 🇨🇦 | @Raydikalx | C9F20E | 2838ms
-  - D🔴🇸🇬hos_dokng.com_731ac5ff | 2865ms
-  - 🇺🇸 美国 22 | 3079ms
-  - 🇹🇼 台湾 01 | 3082ms
-  - A🟢🇲🇽res_dokng.com_1aa34d5e | 3182ms
-  - D🔴🇺🇸hos_dokng.com_a6052a43 | 3306ms
-  - 🇺🇸 美国 24 | 3311ms
-  - A🟢🇧🇷res[📺🎵]_dokng.com_936e7dd6 | 3695ms
-  - C🟠🇪🇸hos[🤖💬🔮🎵]_dokng.com_7210a2a4 | 3727ms
-  - C🟠🇪🇸hos[🤖🔮🎵🎮]_dokng.com_38171dc1 | 3847ms
-  - 🇷🇺 俄罗斯 02 | 3989ms
-  - U⚪🏳️ukn[💬🔮🎮✈️]_dokng.com_3447c6df | 4691ms
-  - A🟢🇳🇱res[💬🔮🎮✈️]_dokng.com_2e8886fe | 4780ms
+  - 🇮🇹 意大利 08 | 1625ms
+  - 🇮🇹 意大利 07 | 1879ms
+  - 🇮🇹 意大利 11 | 1913ms
+  - 🇩🇪[www.v2nodes.com] ss-DE-1624... | 1953ms
+  - 🇮🇹 意大利 09 | 2130ms
+  - '🇷🇺 俄罗斯 | RUS #1 | 2349ms'
+  - 🇮🇹 意大利 06 | 2406ms
+  - '🇷🇺 俄罗斯 | RUS #2 | 2539ms'
+  - '🇷🇺 俄罗斯 | RUS #4 | 2540ms'
+  - 🇮🇩ID_4|522KB/s|R002-260618 [98ad7829bea3] | 2621ms
+  - 🇹🇭TH_14|548KB/s|K001-260618 [6a15e2bcb6c4] | 2697ms
+  - 🇹🇭TH_8|432KB/s|R002-260618 [97523c93a778] | 2814ms
+  - 🇷🇺 俄罗斯 02 | 2822ms
+  - 🇹🇭TH_11|578KB/s|R002-260618 [6e854ea98e74] | 2889ms
+  - 🇹🇭TH_5|468KB/s|R002-260618 [849ebc43c563] | 2901ms
+  - 🇹🇭TH_18|595KB/s|R002-260618 [c4777f941380] | 2924ms
+  - 🇳🇱 荷兰 05 | 3061ms
+  - 🇹🇭TH_19|580KB/s|R002-260618 [331e4c5a2225] | 3062ms
+  - 🇹🇭TH_17|463KB/s|R002-260618 [dfd6508a04d8] | 3091ms
+  - 🇹🇭TH_21|496KB/s|R002-260618 [b78c1c59295f] | 3189ms
+  - 🇹🇭TH_6|485KB/s|R002-260618 [464b3437191d] | 3191ms
+  - 🇮🇩ID_6|646KB/s|R002-260618 [6f5e9265b2e4] | 3218ms
+  - 🇹🇭TH_10|589KB/s|R002-260618 [0e1f17200b32] | 3274ms
+  - 🇹🇭TH_7|485KB/s|R002-260618 [f10b406ce373] | 3298ms
+  - 🇩🇪DE德国丨yoyapai.com\r | 3321ms
+  - 🇹🇭TH_16|587KB/s|R002-260618 [adb3477e8887] | 3325ms
+  - 🇻🇳VN_2|238KB/s|R002-260618 [6d6a890a0e15] | 3376ms
+  - 🇲🇽MX_6|723KB/s|R002-260618 [d602f1d4ef03] | 3393ms
+  - 🇺🇸US_417|945KB/s|A001-260618 [06fdde827ad4] | 3419ms
+  - 🇲🇽MX_8|731KB/s|K001-260618 [2b33d64efd58] | 3428ms
+  - 🇺🇸US_632|460KB/s|P002-260618 [c0b3b312046c] | 3434ms
+  - 🇹🇭TH_20|566KB/s|R002-260618 [76d92b58a2fa] | 3450ms
+  - 🇹🇭TH_9|417KB/s|R002-260618 [875ea96a51cf] | 3452ms
+  - 🇮🇹 意大利 04 | 3517ms
+  - 🇲🇽MX_2|266KB/s|P002-260618 [a4fc8a9a0c8d] | 3520ms
+  - 🇮🇹 意大利 05 | 3545ms
+  - 🇲🇽MX_7|607KB/s|R002-260618 [7a1e93a0ef85] | 3570ms
+  - 🇸🇬SG_47|575KB/s|R002-260618 [670066b8f911] | 3618ms
+  - 🇻🇳VN_3|447KB/s|R002-260618 [1ed94f8d82c9] | 3628ms
+  - 🇮🇩ID_5|645KB/s|S001-260618 [60c87f168b5f] | 3644ms
+  - 🇹🇭TH_3|558KB/s|R002-260618 [08846cc7f1d1] | 3690ms
+  - 🇹🇭TH_2|587KB/s|R002-260618 [464d3086d022] | 3742ms
+  - 🇺🇸 美国 07 | 3757ms
+  - 🇹🇭TH_1|572KB/s|R002-260618 [ad775af2aefa] | 3805ms
+  - 🇧🇷BR_10|284KB/s|R002-260618 [0a59d07494f6] | 3872ms
+  - 🇹🇭TH_13|566KB/s|R002-260618 [4d7f4c48ed29] | 3935ms
+  - CA 🇨🇦 | @Raydikalx | 275119 | 3937ms
+  - 🇹🇭TH_15|534KB/s|S001-260618 [d591c4191f8f] | 4015ms
+  - 🇹🇭TH_12|600KB/s|R002-260618 [744dddb58be2] | 4134ms
+  - 🇯🇵JP_16|451KB/s|P002-260618 [e5efa8f7a2fb] | 4138ms
+  - 🇫🇷FR_58|127KB/s|K001-260618 [44e893cb0aad] | 4327ms
+  - 🇲🇽MX_1|572KB/s|R002-260618 [70e55aa5a678] | 4341ms
+  - 🇲🇽MX_5|122KB/s|R002-260618 [4414f12f0fa0] | 4358ms
+  - 🇲🇽MX_9|270KB/s|R002-260618 [f364ec713648] | 4366ms
+  - 🇺🇸US_99|1.2MB/s|R002-260618 [00dad65c0bb7] | 4372ms
+  - 🌐 其他 01 | 4385ms
+  - 🇺🇸US_100|325KB/s|R002-260618 [1951de2415e0] | 4462ms
+  - 🇲🇽MX_10|447KB/s|S001-260618 [8be23114a447] | 4465ms
+  - 🇸🇬 新加坡 06 | 4468ms
+  - 🇲🇽MX_4|300KB/s|R002-260618 [b7d81b4b7ca2] | 4612ms
+  - 🇹🇭TH_4|569KB/s|R002-260618 [24a27d0b1350] | 4683ms
+  - 🇺🇸US_641|665KB/s|R002-260618 [82bc43fb8ccb] | 4729ms
+  - 🇸🇬SG_33|80KB/s|R002-260618 [e2924167f620] | 4772ms
+  - 🇺🇸US_389|232KB/s [0205d799a499] | 4988ms
   url: http://www.gstatic.com/generate_204
   interval: 300
   tolerance: 50
